@@ -12,17 +12,17 @@ export const Navlinks = [
   {
     id: 2,
     name: "Pourquoi nous ?",
-    link: "/#Services",
+    link: "#Services",
   },
   {
     id: 1,
     name: "Pré-Requis",
-    link: "/#Requis",
+    link: "#Requis",
   },
   {
     id: 1,
     name: "Contactez-nous",
-    link: "/#contact",
+    link: "#contact",
   },
 ];
 const Navbar = ({ theme, setTheme }) => {

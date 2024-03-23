@@ -13,7 +13,7 @@ const Form = () => {
     <div
     data-aos="zoom-in"
             data-aos-duration="1500"
-            data-aos-once="false" className="flex w-full justify-center items-center px-4">
+            data-aos-once="false" className="flex w-full justify-center items-center px-4 sm:pt-12">
     <div className="flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 dark:bg-dark bg-slate-100 w-full max-w-4xl p-8 rounded-xl shadow-lg ">
       <div id="info"  className="flex flex-col gap-4">
         <div>

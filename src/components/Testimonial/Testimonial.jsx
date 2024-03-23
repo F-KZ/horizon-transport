@@ -24,7 +24,7 @@ const Testimonial = () => {
   return (
     <>
       <span id="about"></span>
-      <div className="dark:bg-black dark:text-white py-14 sm:pb-24">
+      <div className="dark:bg-black dark:text-white py-14 sm:pb-12">
         <div className="container">
           {/* Header */}
           <div className="space-y-4 pb-12">
