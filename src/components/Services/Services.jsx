@@ -5,12 +5,12 @@ import { SlNote } from "react-icons/sl";
 
 const skillsData = [
   {
-    name: "Conduisez en toute liberté",
+    name: "Formez-vous en toute liberté",
     icon: (
       <FaCameraRetro className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
     link: "#",
-    description: "Un clic et vous démarrez. Un autre clic et vous arrêtez. En toute simplicité.",
+    description: "Un clic et vous démarrez...",
     aosDelay: "0",
   },
   {
@@ -28,7 +28,7 @@ const skillsData = [
       <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
     ),
     link: "#",
-    description: "Nos formateurs sont des experts dans le metier de chauffeur VTC, connaissant parfaitement le secteur et l’actualité du métier. Profitez de toutes leurs expériences et de leurs conseils. Les clés pour votre futur métier.",
+    description: "Nos formateurs sont des experts dans leurs domaines d'intervention, connaissant parfaitement le secteur et l’actualité des métiers enseignés. Profitez de toutes leurs expériences et de leurs conseils. Les clés pour votre futur métier.",
     aosDelay: "1000",
   },
 ];

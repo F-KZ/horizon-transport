@@ -18,10 +18,10 @@ const Theory = () => {
 const Pratique = () => {
   return (
     <ul className="space-y-3">
-    <li>Présentation des consignes et mise en pratique</li>
-    <li>Utilisation de tout les équipements TAXI</li>
+    <li>Utilisation de tout les équipements spéciaux pour les TAXIS</li>
+    <li>Examen organisé par la CMA</li>
     <li>Pratique sur un véhicule double commande</li>
-    <li>Examen à la CMA </li>
+    
     
     </ul>
   )
@@ -29,12 +29,11 @@ const Pratique = () => {
 
 const Accompagnement = () => {
   return (
-    <ul className="space-y-3">
-    <li>FDB Portage : Portage entrepreneurial</li>
-    <li>FDB Expertise : Cabinet d’expert comptable</li>
-    <li>FDB Agency : Agence de communication</li>
+    <p className="space-y-3">
+    Un accompagnement personnel et individualisé jusqu&apos;à l&apos;inscription sur la liste des VTC 
+    et jusqu&apos;à l&apos;obstention de la carte pro pour les Taxis
     
-    </ul>
+    </p>
   )
 }
 
@@ -76,7 +75,7 @@ const Testimonial = () => {
               Programme de notre Formation 
             </p>
             <p data-aos="fade-up" className="text-center sm:px-44">
-              Notre programme à été élaboré par nos soins afin que vous ayez en mains tout les éléments nécessaires pour réussir votre projet, il se compose en 3 étapes :
+              Notre programme à été élaboré, afin que vous ayez en mains tout les éléments nécessaires pour la réussite de votre projet.
             </p>
           </div>
 

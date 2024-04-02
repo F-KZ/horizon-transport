@@ -39,9 +39,9 @@ const Hero = ({ theme }) => {
             />
           </div>
           <div className="space-y-5 order-2 sm:order-1 sm:pr-32 ">
-            <p data-aos="fade-up" className="text-primary text-2xl font-serif">
+           {/* <p data-aos="fade-up" className="text-primary text-2xl font-serif">
               FORMATION VTC
-            </p>
+            </p>*/}
             <h1
               data-aos="fade-up"
               data-aos-delay="600"
@@ -50,7 +50,10 @@ const Hero = ({ theme }) => {
               Horizon Transports 
             </h1>
             <p data-aos="fade-up" data-aos-delay="1000" className="text-justify">
-            Les objectifs de la formation chauffeur VTC sont d’acquérir les points clés d’une prestation réussie <span className="font-semibold">Horizon-Transports</span> est la pour vous assurer la réussite de votre objectif {" "}
+            Vous voulez devenir conducteur de VTC ? (voiture de transport avec chauffeur)
+            <br/>
+             Vous voulez devenir conducteur de Taxi ? <br/>
+            Nous mettons à votre disposition un accompagnement sur-mesure, pour garantir votre réussite. {" "}
             </p>
             <button
               data-aos="fade-up"

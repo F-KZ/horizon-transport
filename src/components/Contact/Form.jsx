@@ -19,7 +19,6 @@ const Form = () => {
       <div id="info"  className="flex flex-col gap-4 pt-[5rem]">
         <div>
           <h1 className="font-bold text-4xl tracking-wide">Contactez Nous</h1>
-          <p className="pt-2 dark:text-cyan-100 text-sm">Contactez nous et nous vous répondrons dans les meilleurs delais.</p>
         </div>
         <div className="flex flex-col space-y-6 ">
         <div className="flex items-center gap-3">

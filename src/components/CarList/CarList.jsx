@@ -6,19 +6,19 @@ import car3 from "../../assets/permis.png";
 const carList = [
   {
     name: "Casier judiciaire vierge ",
-    price: "Éligibilité à l’examen sous réserve d’un casier judiciaire vierge (bulletin n°2)",
+    price: "un casier judiciaire vierge au (bulletin n°2)",
     image: whiteCar,
     aosDelay: "0",
   },
   {
     name: "Permis depuis 3 ans",
-    price: "Vous devez être détenteur de votre permis depuis plus de 3 ans au moment de l’examen",
+    price: "Vous devez être détenteur de votre permis depuis plus de 3 ans au moment de l’examen ou 2 ans si accompagner",
     image: car3,
     aosDelay: "500",
   },
   {
     name: "Examen VTC",
-    price: " La réussite à la théorie vous donne accès à la pratique puis la pratique vous donne tout simplement accès à votre carte professionnelle.",
+    price: " La réussite à la théorie vous donne accès à la pratique. Puis la pratique vous donne tout simplement accès à votre carte professionnelle.",
     image: car2,
     aosDelay: "1000",
   },
@@ -37,7 +37,7 @@ const CarList = () => {
         </h1>
         <p data-aos="fade-up" aos-delay="400" className=" text-sm pb-10">
          
-Pour devenir chauffeur VTC sachez qu’il existe des prérequis <span className="font-semibold text-red-500">indispensable</span> pour la profession.
+Pour devenir chauffeur VTC sachez qu’il existe des pré-requis <span className="font-semibold text-red-500">indispensable</span> pour accéder à la profession.
         </p>
         {/* Car listing */}
         <div>
@@ -56,7 +56,7 @@ Pour devenir chauffeur VTC sachez qu’il existe des prérequis <span className=
                   />
                 </div>
                 <div className="space-y-2">
-                  <h1 className="text-primary font-semibold">{data.name}</h1>
+                  <h1 className="text-primary font-semibold text-center">{data.name}</h1>
                   <div className="flex justify-between items-center text-xl font-semibold">
                     <p className="text-justify">{data.price}</p>
                   </div>
