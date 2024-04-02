@@ -32,7 +32,7 @@ const About = () => {
               >
                 En quoi consiste la profession ?
               </h1>
-              <p data-aos="fade-up" className="leading-8 tracking-wide">
+              <p data-aos="fade-up" className="text-justify leading-8 tracking-wide">
               Le métier de chauffeur VTC consiste à conduire des personnes dans un véhicule haut de gamme dans le cadre de leurs déplacements et ce, contre rémunération. La réservation du véhicule est obligatoire et le montant de la course connu à l’avance par le client : c’est ce qui distingue, entres autres, un conducteur VTC d’un chauffeur de taxi.
               </p>
               <p data-aos="fade-up">

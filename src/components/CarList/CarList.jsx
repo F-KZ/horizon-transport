@@ -35,7 +35,7 @@ const CarList = () => {
         >
           Chauffeur VTC oui mais à quelles conditions ?
         </h1>
-        <p data-aos="fade-up" aos-delay="400" className="text-sm pb-10">
+        <p data-aos="fade-up" aos-delay="400" className=" text-sm pb-10">
          
 Pour devenir chauffeur VTC sachez qu’il existe des prérequis <span className="font-semibold text-red-500">indispensable</span> pour la profession.
         </p>
@@ -58,7 +58,7 @@ Pour devenir chauffeur VTC sachez qu’il existe des prérequis <span className=
                 <div className="space-y-2">
                   <h1 className="text-primary font-semibold">{data.name}</h1>
                   <div className="flex justify-between items-center text-xl font-semibold">
-                    <p>{data.price}</p>
+                    <p className="text-justify">{data.price}</p>
                   </div>
                 </div>
               </div>

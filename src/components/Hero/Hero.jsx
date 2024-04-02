@@ -49,7 +49,7 @@ const Hero = ({ theme }) => {
             >
               Horizon Transports 
             </h1>
-            <p data-aos="fade-up" data-aos-delay="1000">
+            <p data-aos="fade-up" data-aos-delay="1000" className="text-justify">
             Les objectifs de la formation chauffeur VTC sont d’acquérir les points clés d’une prestation réussie <span className="font-semibold">Horizon-Transports</span> est la pour vous assurer la réussite de votre objectif {" "}
             </p>
             <button
