@@ -1,22 +1,10 @@
-import React, { useEffect, useState } from "react";
 import carPng from "../../assets/car.png";
 import yellowCar from "../../assets/banner-car.png";
 import faceCar from "../../assets/coupe.png"
 import AOS from "aos";
-import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
-const scrollToSection = () => {
-  // Sélectionner la section à laquelle vous souhaitez faire défiler en utilisant son ID
-  const section = document.getElementById('contact');
-
-  // Vérifier si la section existe
-  if (section) {
-    // Faire défiler jusqu'à la section
-    section.scrollIntoView({ behavior: 'smooth' });
-  }
-};
-
-const Hero = ({ theme }) => {
+const Transit = ({ theme }) => {
   useEffect(() => {
     AOS.refresh();
   });
@@ -30,17 +18,10 @@ const Hero = ({ theme }) => {
             data-aos-once="false"
             className="order-1 sm:order-2"
           >
-            <img
-            width={592}
-            height={552}
-              src={theme === "dark" ? carPng : faceCar}
-              alt=""
-              className="sm:scale-125 relative -z-10 max-h-[600px] drop-shadow-[2px_20px_6px_rgba(0,0,0,0.50)]"
-            />
           </div>
           <div className="space-y-5 order-2 sm:order-1 sm:pr-32 ">
             <p data-aos="fade-up" className="text-primary text-2xl font-serif">
-              FORMATION VTC
+              TRANSIT MARITIME
             </p>
             <h1
               data-aos="fade-up"
@@ -55,10 +36,12 @@ const Hero = ({ theme }) => {
             <button
               data-aos="fade-up"
               data-aos-delay="1500"
-              onClick={scrollToSection}
+              onClick={() => {
+                AOS.refreshHard();
+              }}
               className="rounded-md bg-primary hover:bg-primary/80 transition duration-500 py-2 px-6 text-black"
             >
-             je veux en savoir plus
+             je m'inscris
             </button>
           </div>
         </div>
@@ -67,4 +50,4 @@ const Hero = ({ theme }) => {
   );
 };
 
-export default Hero;
+export default Transit;

@@ -73,6 +73,7 @@ Pour devenir chauffeur VTC sachez qu’il existe des prérequis <span className=
         </div>
         */}
       </div>
+      <span id="contact"></span>
     </div>
   );
 };

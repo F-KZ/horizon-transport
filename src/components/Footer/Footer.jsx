@@ -36,17 +36,17 @@ const Footer = () => {
               Horizon Transports
             </h1>
             <p className="text-sm">
-              Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Possimus, voluptate.{" "}
+              Société de transports, service et formation .{" "}
             </p>
             <br />
             <div className="flex items-center gap-3">
               <FaLocationArrow />
-              <p>adresse a mettre</p>
+              <p>Rouen</p>
             </div>
             <div className="flex items-center gap-3 mt-3">
               <FaMobileAlt />
-              <p>numero a mettre</p>
+              <a href="tel:+33 7 69 98 98 85">+33 7 69 98 98 85</a>
+              <a href="tel:+33 9 81 03 60 52">+33 9 81 03 60 52</a>
             </div>
             {/* Social Handle */}
             

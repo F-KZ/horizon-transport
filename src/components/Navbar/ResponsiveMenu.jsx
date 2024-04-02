@@ -5,6 +5,10 @@ import { Navlinks } from "./Navbar";
 
 const ResponsiveMenu = ({ showMenu }) => {
   console.log("showMenu", showMenu);
+
+  const hideMenu = () => {
+    showMenu(false);
+  }
   return (
     <div
       className={`${
@@ -22,7 +26,7 @@ const ResponsiveMenu = ({ showMenu }) => {
         <nav className="mt-12">
           <ul className="space-y-4 text-xl">
             {Navlinks.map((data) => (
-              <li>
+              <li onClick={hideMenu} >
                 <a href={data.link} className="mb-5 inline-block">
                   {data.name}
                 </a>

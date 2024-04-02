@@ -1,6 +1,17 @@
 import React from "react";
 import CarPng from "../../assets/profile.png";
 
+const scrollToSection = () => {
+  // Sélectionner la section à laquelle vous souhaitez faire défiler en utilisant son ID
+  const section = document.getElementById('contact');
+
+  // Vérifier si la section existe
+  if (section) {
+    // Faire défiler jusqu'à la section
+    section.scrollIntoView({ behavior: 'smooth' });
+  }
+};
+
 const About = () => {
   return (
     <div className="dark:bg-dark bg-slate-100 sm:min-h-[600px] sm:grid sm:place-items-center duration-300">
@@ -25,11 +36,12 @@ const About = () => {
               Le métier de chauffeur VTC consiste à conduire des personnes dans un véhicule haut de gamme dans le cadre de leurs déplacements et ce, contre rémunération. La réservation du véhicule est obligatoire et le montant de la course connu à l’avance par le client : c’est ce qui distingue, entres autres, un conducteur VTC d’un chauffeur de taxi.
               </p>
               <p data-aos="fade-up">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
-                tempora.
+                N&apos;attendez plus et rejoignez-nous sans plus attendre !
               </p>
-              <button data-aos="fade-up" className="button-outline">
-                plus d'infos
+              <button
+              onClick={scrollToSection}
+               data-aos="fade-up" className="button-outline">
+                plus d&apos;infos
               </button>
             </div>
           </div>
