@@ -21,10 +21,10 @@ const Profession = ({ switchSide}) => {
                 data-aos="fade-up"
                 className="text-3xl sm:text-4xl font-bold font-serif"
               >
-                En quoi consiste la profession du chauffeur professionnel ?
+                En quoi consiste le métier de chauffeur professionnel ?
               </h1>
               <p data-aos="fade-up" className="text-justify leading-8 tracking-wide">
-              Le métier de chauffeur professionnel consiste à conduire des véhicules terrestres privés,
+              Celui-ci consiste à conduire des véhicules terrestres privés,
               destinés au transport payant de passagers et de leurs bagages, par un chauffeur qualifié.
               Souvent les VTC optent pour un véhicule haut de gamme.
               La réservation au préalable est obligatoire, ainsi le montant de la course est connu d&apos;avance.
