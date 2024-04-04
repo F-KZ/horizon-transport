@@ -12,27 +12,32 @@ const Form = () => {
     <div
     data-aos="zoom-in"
             data-aos-duration="1500"
-            data-aos-once="false" className="flex w-full justify-center items-center px-4 sm:pt-12">
+            data-aos-once="false" className="flex justify-center items-center px-4 sm:pt-12">
     <div className="flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 dark:bg-dark bg-slate-100 w-full max-w-4xl p-8 rounded-xl shadow-lg ">
       <div id="info"  className="flex flex-col gap-4 pt-[5rem]">
         <div>
           <h1 className="font-bold text-4xl tracking-wide">Contactez Nous</h1>
         </div>
         <div className="flex flex-col space-y-6 ">
-        <div className="flex items-center gap-3">
-              <FaWhatsapp />
+        <div className="flex flex-col items-center gap-3">
+        <div className="flex flex-row justify-evenly items-center w-[70%]  ">
+        <FaWhatsapp />
               <a href="tel:+33 7 69 98 98 85">+33 7 69 98 98 85</a>
-              <FaPhoneAlt />
+        </div>
+        <div className="flex flex-row justify-evenly items-center w-[70%]  ">
+             <FaPhoneAlt />
               <a href="tel:+33 9 81 03 60 52">+33 9 81 03 60 52</a>
+             </div>
+              
             </div>
-        <div className="flex items-center gap-3">
+            <div className="flex flex-row justify-evenly items-center w-full  ">
               <FaAt />
               <a href="mailto:contact@horizontransports.fr">contact@horizontransports.fr</a>
             </div>
-        <div className="flex items-center gap-3 ">
+        {/*<div className="flex items-center gap-3 ">
               <FaLocationArrow />
               <p>Rouen</p>
-            </div>
+            </div>*/}
             </div>
       </div>
       <div id="form">

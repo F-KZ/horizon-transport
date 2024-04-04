@@ -12,7 +12,7 @@ const carList = [
   },
   {
     name: "Permis depuis 3 ans",
-    price: "il faut être titulaire d'un permis de conduire non probatoire, depuis 3 ans ou justifier de 2 ans de conduite accompagnée",
+    price: "il faut être titulaire d'un permis de conduire non probatoire, depuis 3 ans ou justifier de 2 ans de conduite accompagnée.",
     image: car3,
     aosDelay: "500",
   },
