@@ -6,7 +6,7 @@ import car3 from "../../assets/permis.png";
 const carList = [
   {
     name: "Casier judiciaire vierge ",
-    price: "Il faut avoir un casier judiciaire vierge au (bulletin n°2)",
+    price: "Il faut avoir un casier judiciaire vierge au bulletin n°2",
     image: whiteCar,
     aosDelay: "0",
   },
@@ -17,7 +17,7 @@ const carList = [
     aosDelay: "500",
   },
   {
-    name: "Examen VTC",
+    name: "Examen",
     price: " La réussite à la théorie vous donne accès à la pratique. Puis la réussite à la pratique vous donne tout simplement accès à votre carte professionnelle.",
     image: car2,
     aosDelay: "1000",
@@ -31,13 +31,13 @@ const CarList = () => {
         {/* Heading */}
         <h1
           data-aos="fade-up"
-          className="text-3xl sm:text-4xl font-semibold font-serif mb-3"
+          className="text-3xl sm:text-4xl font-semibold font-serif mb-3 text-center md:text-justify"
         >
-          Chauffeur VTC oui mais à quelles conditions ?
+          Chauffeur professionnel oui mais à quelles conditions ?
         </h1>
         <p data-aos="fade-up" aos-delay="400" className=" text-sm pb-10">
          
-Pour devenir chauffeur VTC sachez qu’il existe des pré-requis <span className="font-semibold text-red-500">indispensable</span> pour accéder à la profession.
+il existe des pré-requis pour devenir chauffeur professionnel.
         </p>
         {/* Car listing */}
         <div>
@@ -58,7 +58,7 @@ Pour devenir chauffeur VTC sachez qu’il existe des pré-requis <span className
                 <div className="space-y-2">
                   <h1 className="text-primary font-semibold text-center">{data.name}</h1>
                   <div className="flex justify-between items-center text-xl font-semibold">
-                    <p className="text-justify">{data.price}</p>
+                    <p className="text-center">{data.price}</p>
                   </div>
                 </div>
               </div>

@@ -18,10 +18,10 @@ const Theory = () => {
 const Pratique = () => {
   return (
     <ul className="space-y-3">
-    <li>Pour le VTC préparation et devis</li>
-    <li>Utilisation de tout les équipements spéciaux pour les TAXIS</li>
-    <li>capacité commercial et touristique </li>
-    <li>Pratique sur un véhicule double commande disposant d&apos;eau, confuserie, magasine et journaux</li>
+    <li>Pour le VTC préparation, devis et facture</li>
+    <li>Pour le Taxi utilisation de tout les équipements spéciaux</li>
+    <li>Capacité commercial et touristique pour tous </li>
+    <li>Pratique sur un véhicule équipé double commande disposant d&apos;eau, confuserie, magasine et journaux</li>
     
     
     </ul>
@@ -31,8 +31,8 @@ const Pratique = () => {
 const Accompagnement = () => {
   return (
     <p className="space-y-3">
-    Pour les VTC un accompagnement individuel et personnalisé jusqu&apos;à l&apos;inscription sur la liste des VTC 
-    et jusqu&apos;à l&apos;obstention de la carte pro pour les Taxis
+    Pour tous un accompagnement individualisé et personnalisé; pour les VTC jusqu&apos;à l&apos;inscription sur la liste nationale 
+    pour les Taxis jusqu&apos;à l&apos;obstention de la carte professionnel
     
     </p>
   )

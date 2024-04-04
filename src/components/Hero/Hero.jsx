@@ -45,7 +45,7 @@ const Hero = ({ theme }) => {
             <h1
               data-aos="fade-up"
               data-aos-delay="600"
-              className="text-5xl lg:text-7xl font-semibold font-serif"
+              className="text-4xl lg:text-7xl font-semibold font-serif text-center md:text-justify"
             >
               NOS FORMATIONS
             </h1>
