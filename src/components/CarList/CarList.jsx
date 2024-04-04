@@ -6,19 +6,19 @@ import car3 from "../../assets/permis.png";
 const carList = [
   {
     name: "Casier judiciaire vierge ",
-    price: "un casier judiciaire vierge au (bulletin n°2)",
+    price: "Il faut avoir un casier judiciaire vierge au (bulletin n°2)",
     image: whiteCar,
     aosDelay: "0",
   },
   {
     name: "Permis depuis 3 ans",
-    price: "Vous devez être détenteur de votre permis depuis plus de 3 ans au moment de l’examen ou 2 ans si accompagner",
+    price: "il faut être titulaire d'un permis de conduire non probatoire, depuis 3 ans ou justifier de 2 ans de conduite accompagnée",
     image: car3,
     aosDelay: "500",
   },
   {
     name: "Examen VTC",
-    price: " La réussite à la théorie vous donne accès à la pratique. Puis la pratique vous donne tout simplement accès à votre carte professionnelle.",
+    price: " La réussite à la théorie vous donne accès à la pratique. Puis la réussite à la pratique vous donne tout simplement accès à votre carte professionnelle.",
     image: car2,
     aosDelay: "1000",
   },

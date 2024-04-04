@@ -47,12 +47,11 @@ const Hero = ({ theme }) => {
               data-aos-delay="600"
               className="text-5xl lg:text-7xl font-semibold font-serif"
             >
-              Horizon Transports 
+              NOS FORMATIONS
             </h1>
             <p data-aos="fade-up" data-aos-delay="1000" className="text-justify">
-            Vous voulez devenir conducteur de VTC ? (voiture de transport avec chauffeur)
+            Vous voulez devenir chauffeur professionnel VTC ou Taxi ? 
             <br/>
-             Vous voulez devenir conducteur de Taxi ? <br/>
             Nous mettons à votre disposition un accompagnement sur-mesure, pour garantir votre réussite. {" "}
             </p>
             <button

@@ -18,9 +18,10 @@ const Theory = () => {
 const Pratique = () => {
   return (
     <ul className="space-y-3">
+    <li>Pour le VTC préparation et devis</li>
     <li>Utilisation de tout les équipements spéciaux pour les TAXIS</li>
-    <li>Examen organisé par la CMA</li>
-    <li>Pratique sur un véhicule double commande</li>
+    <li>capacité commercial et touristique </li>
+    <li>Pratique sur un véhicule double commande disposant d&apos;eau, confuserie, magasine et journaux</li>
     
     
     </ul>
@@ -30,7 +31,7 @@ const Pratique = () => {
 const Accompagnement = () => {
   return (
     <p className="space-y-3">
-    Un accompagnement personnel et individualisé jusqu&apos;à l&apos;inscription sur la liste des VTC 
+    Pour les VTC un accompagnement individuel et personnalisé jusqu&apos;à l&apos;inscription sur la liste des VTC 
     et jusqu&apos;à l&apos;obstention de la carte pro pour les Taxis
     
     </p>
@@ -72,10 +73,10 @@ const Testimonial = () => {
               data-aos="fade-up"
               className="text-3xl font-semibold text-center sm:text-4xl font-serif"
             >
-              Programme de notre Formation 
+              Programme de nos Formations
             </p>
             <p data-aos="fade-up" className="text-center sm:px-44">
-              Notre programme à été élaboré, afin que vous ayez en mains tout les éléments nécessaires pour la réussite de votre projet.
+              Notre programme à été élaboré pour que vous ayez entre les mains tout les éléments nécessaires pour garantir votre réussite.
             </p>
           </div>
 

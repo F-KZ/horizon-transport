@@ -19,7 +19,7 @@ const skillsData = [
       <GiNotebook className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
     link: "#",
-    description: "Un interlocuteur dédié à votre projet du début jusqu'à l'obtention de votre carte",
+    description: "Un interlocuteur dédié à votre projet du début jusqu'à l'obtention de votre carte professionnel",
     aosDelay: "500",
   },
   {
@@ -28,7 +28,7 @@ const skillsData = [
       <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
     ),
     link: "#",
-    description: "Nos formateurs sont des experts dans leurs domaines d'intervention, connaissant parfaitement le secteur et l’actualité des métiers enseignés. Profitez de toutes leurs expériences et de leurs conseils. Les clés pour votre futur métier.",
+    description: "Nos formateurs sont des experts dans leurs domaines d'intervention, ils connaissent parfaitement le secteur et l’actualité des métiers enseignés. Profitez de toutes leurs expériences et de leurs conseils.",
     aosDelay: "1000",
   },
 ];

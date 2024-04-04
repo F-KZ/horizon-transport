@@ -1,13 +1,11 @@
 import { useState } from "react";
 import {
-  FaFacebook,
-  FaInstagram,
-  FaLinkedin,
+  FaWhatsapp,
   FaLocationArrow,
   FaPhoneAlt,
   FaAt,
 } from "react-icons/fa";
-import story from "../../assets/story5.png"
+import story from "../../assets/story7.png"
 
 const Form = () => {
   return (
@@ -22,8 +20,9 @@ const Form = () => {
         </div>
         <div className="flex flex-col space-y-6 ">
         <div className="flex items-center gap-3">
-              <FaPhoneAlt />
+              <FaWhatsapp />
               <a href="tel:+33 7 69 98 98 85">+33 7 69 98 98 85</a>
+              <FaPhoneAlt />
               <a href="tel:+33 9 81 03 60 52">+33 9 81 03 60 52</a>
             </div>
         <div className="flex items-center gap-3">

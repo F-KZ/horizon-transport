@@ -21,10 +21,14 @@ const Profession = ({ switchSide}) => {
                 data-aos="fade-up"
                 className="text-3xl sm:text-4xl font-bold font-serif"
               >
-                En quoi consiste la profession ?
+                En quoi consiste la profession du chauffeur professionnel ?
               </h1>
               <p data-aos="fade-up" className="text-justify leading-8 tracking-wide">
-              Le métier de chauffeur VTC consiste à conduire des personnes dans un véhicule haut de gamme dans le cadre de leurs déplacements et ce, contre rémunération. La réservation du véhicule est obligatoire et le montant de la course connu à l’avance par le client : c’est ce qui distingue, entres autres, un conducteur VTC d’un chauffeur de taxi.
+              Le métier de chauffeur professionnel consiste à conduire des véhicules terrestres privés,
+              destinés au transport payant de passagers et de leurs bagages, par un chauffeur qualifié.
+              Souvent les VTC optent pour un véhicule haut de gamme.
+              La réservation au préalable est obligatoire, ainsi le montant de la course est connu d&apos;avance.
+              C&apos;est la différence entre un Taxi et un VTC
               </p>
               <p data-aos="fade-up">
                 N&apos;attendez plus et rejoignez-nous sans plus attendre !
