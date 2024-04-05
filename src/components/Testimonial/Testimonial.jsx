@@ -31,8 +31,8 @@ const Pratique = () => {
 const Accompagnement = () => {
   return (
     <p className="space-y-3">
-    Pour tous un accompagnement individualisé et personnalisé; pour les VTC jusqu&apos;à l&apos;inscription sur la liste nationale 
-    pour les Taxis jusqu&apos;à l&apos;obstention de la carte professionnel
+    Pour tous un accompagnement individualisé et personnalisé; pour les VTC jusqu&apos;à l&apos;inscription sur la liste nationale <br/> 
+    pour les Taxis jusqu&apos;à l&apos;obstention de la carte professionnel.
     
     </p>
   )
