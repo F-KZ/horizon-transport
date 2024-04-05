@@ -60,7 +60,7 @@ const Hero = ({ theme }) => {
               onClick={scrollToSection}
               className="rounded-md bg-primary hover:bg-primary/80 transition duration-500 py-2 px-6 text-black"
             >
-             je veux en savoir plus
+             Je veux en savoir plus
             </button>
           </div>
         </div>

@@ -10,7 +10,7 @@ const skillsData = [
       <FaCameraRetro className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
     link: "#",
-    description: "Un clic et vous démarrez...",
+    description: "Rejoignez-nous sans plus attendre !",
     aosDelay: "0",
   },
   {
@@ -28,7 +28,7 @@ const skillsData = [
       <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
     ),
     link: "#",
-    description: `Nos formateurs sont des experts dans leurs domaines d'intervention, ils connaissent parfaitement le secteur et l’actualité des métiers enseignés. Profitez de toutes leurs expériences et de leurs conseils.`,
+    description: `Nos formateurs sont des experts dans leurs domaines d'intervention, ils connaissent parfaitement le secteur et l’actualité des métiers enseignés. Bénéficiez de leurs expériences et conseils.`,
     aosDelay: "1000",
   },
 ];

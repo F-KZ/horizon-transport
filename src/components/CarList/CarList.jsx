@@ -17,8 +17,8 @@ const carList = [
     aosDelay: "500",
   },
   {
-    name: "Examen",
-    price: " La réussite à la théorie vous donne accès à la pratique. Puis la réussite à la pratique vous donne tout simplement accès à votre carte professionnelle.",
+    name: "Examen ",
+    price: " Deux étapes la réussite à la théorie vous donne accès à la pratique et la réussite à la pratique vous donne accès aux formalités de votre carte professionnelle.",
     image: car2,
     aosDelay: "1000",
   },
@@ -37,7 +37,7 @@ const CarList = () => {
         </h1>
         <p data-aos="fade-up" aos-delay="400" className=" text-sm pb-10">
          
-il existe des pré-requis pour devenir chauffeur professionnel.
+Il existe des pré-requis pour devenir chauffeur professionnel.
         </p>
         {/* Car listing */}
         <div>

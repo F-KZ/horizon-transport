@@ -33,7 +33,7 @@ const Footer = () => {
         <div className=" flex flex-row items-center sm:justify-between justify-center flex-wrap py-5">
           {/* company Details */}
           <div className=" py-8 px-4 "> <img
-            width={200}
+            width={260}
             src={borcel}
           /></div>
           

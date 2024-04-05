@@ -19,7 +19,7 @@ const Profession = ({ switchSide}) => {
     <div className="space-y-5 sm:p-16 pb-6">
               <h1
                 data-aos="fade-up"
-                className="text-3xl sm:text-4xl font-bold font-serif text-center md:text-start"
+                className="text-3xl sm:text-4xl font-bold font-serif text-justify md:text-start"
               >
                 En quoi consiste le métier de chauffeur professionnel ?
               </h1>
@@ -28,7 +28,7 @@ const Profession = ({ switchSide}) => {
               destinés au transport payant de passagers et de leurs bagages, par un chauffeur qualifié.<br/>
               Souvent les VTC optent pour un véhicule haut de gamme. <br/>
               La réservation préalable est obligatoire, ainsi le montant de la course est connu d&apos;avance;
-              C&apos;est la différence entre un Taxi et un VTC
+              c&apos;est la différence entre un Taxi et un VTC.
               </p>
               <p data-aos="fade-up">
                 N&apos;attendez plus, rejoignez-nous sans plus attendre !
@@ -36,7 +36,7 @@ const Profession = ({ switchSide}) => {
               <button
               onClick={switchSide}
                data-aos="fade-up" className="button-outline">
-                en quoi consiste la formation ?
+                En quoi consiste la formation ?
               </button>
             </div>
   )
