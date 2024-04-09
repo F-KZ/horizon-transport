@@ -13,6 +13,8 @@ import Footer from "./components/Footer/Footer";
 import Form from "./components/Contact/Form"
 import Transit from "./components/Transit/Transit";
 import { Routes, Route, Router } from "react-router-dom";
+import AppStoreBanner from "./components/AppStoreBanner/AppStoreBanner";
+import Prix from "./components/Prix/Prix";
 
 const App = () => {
   // dark mode start
@@ -49,6 +51,7 @@ const App = () => {
       <Services />
       <CarList />
       <Testimonial/> 
+      <Prix/>
       <Form />
       <Footer />
     </div>

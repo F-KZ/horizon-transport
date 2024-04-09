@@ -62,7 +62,7 @@ const Formation = () => {
               <button
               onClick={scrollToSection}
                data-aos="fade-up" className="button-outline">
-                plus d&apos;infos
+                Simulez mon Financement
               </button>
             </div>
   )

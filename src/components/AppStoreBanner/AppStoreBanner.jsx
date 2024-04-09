@@ -1,7 +1,7 @@
 import React from "react";
 //import AppStoreImg from "../../assets/website/app_store.png";
 //import PlayStoreImg from "../../assets/website/play_store.png";
-//import pattern from "../../assets/website/pattern.jpeg";
+//import pattern from "../../assets/website/car5.png";
 
 const bannerImg = {
  // backgroundImage: `url(${pattern})`,
@@ -36,14 +36,14 @@ const AppStoreBanner = () => {
             >
               <a href="#">
                 <img
-                  src={PlayStoreImg}
+               //   src={PlayStoreImg}
                   alt=""
                   className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]"
                 />
               </a>
               <a href="#">
                 <img
-                  src={AppStoreImg}
+               //   src={AppStoreImg}
                   alt=""
                   className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]"
                 />

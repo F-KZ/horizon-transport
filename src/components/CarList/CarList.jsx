@@ -18,7 +18,7 @@ const carList = [
   },
   {
     name: "Examen ",
-    price: " Deux étapes la réussite à la théorie vous donne accès à la pratique et la réussite à la pratique vous donne accès aux formalités de votre carte professionnelle.",
+    price: " Deux étapes : la réussite à la théorie vous donne accès à la pratique et la réussite à la pratique vous donne accès aux formalités de votre carte professionnelle.",
     image: car2,
     aosDelay: "1000",
   },
@@ -73,7 +73,6 @@ Il existe des pré-requis pour devenir chauffeur professionnel.
         </div>
         */}
       </div>
-      <span id="contact"></span>
     </div>
   );
 };
