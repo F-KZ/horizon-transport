@@ -5,7 +5,7 @@ const Prix = () => {
         <div
     data-aos="zoom-in"
             data-aos-duration="1500"
-            data-aos-once="false" className="flex justify-center items-center px-4 sm:pt-12">
+            data-aos-once="false" className="flex justify-center items-center px-4 sm:pt-12 pb-9 sm:pb-0">
             <div className='flex flex-col items-center flex-nowrap space-y-6 border-double border-4 border-sky-500 p-4 rounded-lg'>
             <h1 className='font-bold text-4xl tracking-wide'> PRÉSENTIEL</h1>
             <span>1200€</span>
