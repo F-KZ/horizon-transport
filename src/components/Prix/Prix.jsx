@@ -12,7 +12,7 @@ const Prix = () => {
             <ul className='flex flex-col space-y-6 items-center'>
                 <li>Formation théorique VTC</li>
                 <li>Formation pratique VTC 1 heure de prise en main</li>
-                <li>Mise à disposition du véhicule pour l’examen pratique</li>
+                <li>Mise à disposition du véhicule pour l’examen pratique.</li>
             </ul>
 
             </div>
