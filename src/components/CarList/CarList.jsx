@@ -65,13 +65,13 @@ Il existe des pré-requis pour devenir chauffeur professionnel.
             ))}
           </div>
         </div>
-        {/* End of car listing 
         <div className="grid place-items-center mt-8">
-          <button data-aos="fade-up" className="button-outline">
-            Get Started
+          <button data-aos="fade-up"  className="button-outline">
+          <a href="https://www.francecompetences.fr/recherche/rs/5637/" target="_blank" rel="noopener noreferrer">
+          Habilitation pour l’accès à la profession de conducteur de voiture de transport avec chauffeur (VTC)
+          </a>
           </button>
         </div>
-        */}
       </div>
     </div>
   );

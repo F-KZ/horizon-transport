@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Politique = () => {
+export const Politique = () => {
     return (
         <div>
         <h1>Politique de confidentialité</h1>
@@ -54,13 +54,13 @@ Le droit de retrait s’entend comme étant la possiblité offerte aux internaut
 <h2>Pour pouvoir exercer ces droits, vous pouvez :</h2>
 
 <p>
-Code postal :  33800
+Code postal :  76140
 
-Courriel :  direction@clf-formation.fr
+Courriel :  contact@horizontransports.fr
 
-Téléphone :  06.40.77.95.23
+Téléphone : +33 7 69 98 98 85
 
-Section du site web :   https://clf-formation.fr
+Section du site web :   https://horizontransports.fr
 </p>
 
 <h2>Droit d’accès</h2>
@@ -71,13 +71,13 @@ Section du site web :   https://clf-formation.fr
 <p>L’exercice de ce droit se fera :</p>
 
 <p>
-Code postal :  33800
+Code postal :  76140
 
-Courriel :  direction@clf-formation.fr
+Courriel :  contact@horizontransports.fr
 
-Téléphone :  06.40.77.95.23
+Téléphone :  +33 7 69 98 98 85
 
-Section du site web :   https://clf-formation.fr/
+Section du site web :   https://horizontransports.fr
 </p>
 
 <h2>Sécurité</h2>

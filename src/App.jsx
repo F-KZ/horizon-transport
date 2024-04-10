@@ -12,9 +12,14 @@ import Testimonial from "./components/Testimonial/Testimonial";
 import Footer from "./components/Footer/Footer";
 import Form from "./components/Contact/Form"
 import Transit from "./components/Transit/Transit";
-import { Routes, Route, Router } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import AppStoreBanner from "./components/AppStoreBanner/AppStoreBanner";
 import Prix from "./components/Prix/Prix";
+import {Politique} from "./components/Footer/Politique";
+import {Conditions} from "./components/Footer/Conditions";
+import {Mentions} from "./components/Footer/Mentions";
+import Indicateur from "./components/Indicateur/Indicateur";
+// import Experience from "./components/Experience/Experience";
 
 const App = () => {
   // dark mode start
@@ -44,17 +49,29 @@ const App = () => {
     AOS.refresh();
   }, []);
   return (
-    <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden">
-     <Navbar theme={theme} setTheme={setTheme} />
-    <Hero theme={theme} />
-      <About />
-      <Services />
-      <CarList />
-      <Testimonial/> 
-      <Prix/>
-      <Form />
-      <Footer />
-    </div>
+    <Router>
+      <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden">
+        <Navbar theme={theme} setTheme={setTheme} />
+        <Hero theme={theme} />
+            <About />
+            <Services />
+            <CarList />
+            <Testimonial/> 
+            <Indicateur/>
+           {/* <Experience/> */}
+            <Prix/>
+            <Form />
+        <Routes>
+          <Route path="/" exact>
+          <Route path="/Conditions" Component={Conditions} />
+          <Route path="/Mentions" element={<Mentions/>} />
+          <Route path="/Politique" element={<Politique/>} />
+           
+          </Route>
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 };
 

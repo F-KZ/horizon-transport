@@ -1,16 +1,16 @@
 import React from 'react';
 
-const Conditions = () => {
+export const Conditions = () => {
     return (
         <div>
             <h1>Conditions générales de vente</h1>
 <h2>Article 1 – Objet</h2>
 
-<p>Les présentes conditions générales de vente (les « CGV »), définissent les conditions dans lesquelles la société CLF FORMATION consent au Client, qui l’accepte, une formation.
+<p>Les présentes conditions générales de vente (les « CGV »), définissent les conditions dans lesquelles la société HORIZON TRANSPORTS consent au Client, qui l’accepte, une formation.
 
 Toute commande implique l’acceptation sans réserve par le Client des CGV. Ces conditions prévalent sur tout autre document, et notamment sur toutes éventuelles conditions générales d’achat du Client.
 
-Les présentes CGV concernent les formations présentielles et distancielles. Les formations présentielles peuvent être réalisées dans les locaux de la société CLF FORMATION, dans les locaux de clients ou dans tous autres locaux qui pourraient être loués par la société CLF FORMATION.
+Les présentes CGV concernent les formations présentielles et distancielles. Les formations présentielles peuvent être réalisées dans les locaux de la société HORIZON TRANSPORTS, dans les locaux de clients ou dans tous autres locaux qui pourraient être loués par la société HORIZON TRANSPORTS.
 
 </p>
 
@@ -25,9 +25,9 @@ Pour que la commande soit validée, le Client devra signer les présentes condit
 
 L’opération sera considérée comme définitive :
 
-–  après l’envoi au Client de la confirmation de l’acceptation de la commande par la société CLF FORMATION;
+–  après l’envoi au Client de la confirmation de l’acceptation de la commande par la société HORIZON TRANSPORTS;
 
-–  et après encaissement par la société CLF FORMATION de l’intégralité du prix.
+–  et après encaissement par la société HORIZON TRANSPORTS de l’intégralité du prix.
 
 Toute commande vaut acceptation des prix et descriptions des formations disponibles.
 
@@ -47,41 +47,41 @@ En cas d’utilisation frauduleuse de la carte bancaire, le Client est invité, 
 Confirmation de commande
 
 
-La société CLF FORMATION fournit au Client un exemplaire du contrat, sur papier signé par les parties ou, avec l’accord du Client, sur un autre support durable, confirmant l’engagement exprès des parties.
+La société HORIZON TRANSPORTS fournit au Client un exemplaire du contrat, sur papier signé par les parties ou, avec l’accord du Client, sur un autre support durable, confirmant l’engagement exprès des parties.
 
 
 Preuve de la transaction
 
 
-Les registres informatisés, conservés dans les systèmes informatiques de la société CLF FORMATION dans des conditions raisonnables de sécurité, seront considérés comme les preuves des communications, des commandes et des paiements intervenus entre les parties. L’archivage des bons de commande et des factures est effectué sur un support fiable et durable pouvant être produit à titre de preuve.
+Les registres informatisés, conservés dans les systèmes informatiques de la société HORIZON TRANSPORTS dans des conditions raisonnables de sécurité, seront considérés comme les preuves des communications, des commandes et des paiements intervenus entre les parties. L’archivage des bons de commande et des factures est effectué sur un support fiable et durable pouvant être produit à titre de preuve.
 
 Le Client peut télécharger librement un programme de formation contenant toutes informations pratiques relatives à sa formation.
 
-Dans les 15 jours suivant l’accomplissement de la formation, à la demande du client la société CLF FORMATION remettra une attestation de Formation.
+Dans les 15 jours suivant l’accomplissement de la formation, à la demande du client la société HORIZON TRANSPORTS remettra une attestation de Formation.
 
 </p>
 
 <h2>Article 3 – Modalités de Formation</h2>
 
 <p>
-La société CLF FORMATION organise librement l’ensemble des modalités des formations qu’elle propose.
+La société HORIZON TRANSPORTS organise librement l’ensemble des modalités des formations qu’elle propose.
 
-Les participants devront impérativement s’y conformer et la société CLF FORMATION se réserve le droit, d’exclure à tout moment, sans indemnité, tout participant qui y contreviendrait.
+Les participants devront impérativement s’y conformer et la société HORIZON TRANSPORTS se réserve le droit, d’exclure à tout moment, sans indemnité, tout participant qui y contreviendrait.
 
 </p>
 
 <h2>Article 4 – Tarifs et règlement</h2>
 
 <p>
-Les prix sont indiqués en euros hors taxes sur les supports de communication de la société CLF FORMATION et sur son site internet. Les forfaits repas et pauses ne sont pas inclus. Les remises et autres offres commerciales ne sont pas cumulables entre elles. Toute formation commencée est due en totalité.
+Les prix sont indiqués en euros hors taxes sur les supports de communication de la société HORIZON TRANSPORTS et sur son site internet. Les forfaits repas et pauses ne sont pas inclus. Les remises et autres offres commerciales ne sont pas cumulables entre elles. Toute formation commencée est due en totalité.
 
 Les factures sont payables à réception ou selon l’échéancier éventuellement convenu, sans escompte, par chèque ou virement.
 
 En cas de retard de paiement, des pénalités égales à trois fois le taux d’intérêt légal en vigueur seront appliquées de plein droit, ainsi qu’une indemnité forfaitaire pour frais de recouvrement d’un montant de 50 euros.
 
-En cas d’absence ou de retard de règlement, la société CLF FORMATION suspendra ou refusera toute nouvelle commande jusqu’à apurement de la dette. La société CLF FORMATION refusera de délivrer la formation concernée.
+En cas d’absence ou de retard de règlement, la société HORIZON TRANSPORTS suspendra ou refusera toute nouvelle commande jusqu’à apurement de la dette. La société HORIZON TRANSPORTS refusera de délivrer la formation concernée.
 
-En cas de prise en charge du paiement par un organisme collecteur, il appartient au Client de faire une demande de prise en charge avant le début de la formation et de s’assurer de la bonne fin de cette demande. Il appartiendra également au Client de l’indiquer explicitement sur son bulletin d’inscription en indiquant les coordonnées complètes de l’organisme collecteur. L’accord de prise en charge avant la date de formation devra être communiqué et le client devra en outre s’assurer de la bonne fin du paiement par l’organisme désigné. Si la société CLF FORMATION n’a pas reçu confirmation de la prise en charge au premier jour de la formation, l’intégralité du prix de la formation sera facturée au Client.
+En cas de prise en charge du paiement par un organisme collecteur, il appartient au Client de faire une demande de prise en charge avant le début de la formation et de s’assurer de la bonne fin de cette demande. Il appartiendra également au Client de l’indiquer explicitement sur son bulletin d’inscription en indiquant les coordonnées complètes de l’organisme collecteur. L’accord de prise en charge avant la date de formation devra être communiqué et le client devra en outre s’assurer de la bonne fin du paiement par l’organisme désigné. Si la société HORIZON TRANSPORTS n’a pas reçu confirmation de la prise en charge au premier jour de la formation, l’intégralité du prix de la formation sera facturée au Client.
 
 En cas de prise en charge partielle du prix de la formation par l’organisme collecteur, le reliquat sera réglé par le Client.
 
@@ -102,25 +102,25 @@ Ce droit de rétractation est exclu pour : les contrats de services dont l’ex�
 Conformément aux dispositions du code de la consommation, le Client consommateur dispose d’un délai de 14 jours ouvrables à compter de la date de son inscription à une formation pour demander un remboursement sans pénalité.
 
 
-Le droit de rétractation peut être exercé en ligne, à l’aide du formulaire de rétractation disponible sur le site internet. Dans ce cas, l’acheteur doit envoyer par lettre recommandé avec accusé de réception le formulaire au siège de la société CLF FORMATION. Tout autre mode de déclaration de rétractation n’est pas accepté. Il doit être dénué d’ambiguïté et exprimer la volonté de se rétracter.
+Le droit de rétractation peut être exercé en ligne, à l’aide du formulaire de rétractation disponible sur le site internet. Dans ce cas, l’acheteur doit envoyer par lettre recommandé avec accusé de réception le formulaire au siège de la société HORIZON TRANSPORTS. Tout autre mode de déclaration de rétractation n’est pas accepté. Il doit être dénué d’ambiguïté et exprimer la volonté de se rétracter.
 
 En cas d’exercice du droit de rétractation dans le délai susvisé, sont remboursés le prix de la prestation.
 
-La société CLF FORMATION a la faculté d’annuler ou de reporter une formation, sans indemnité d’aucune sorte, avec un délai de prévenance de 7 jours avant la date de la Formation.
+La société HORIZON TRANSPORTS a la faculté d’annuler ou de reporter une formation, sans indemnité d’aucune sorte, avec un délai de prévenance de 7 jours avant la date de la Formation.
 
-La société CLF FORMATION a en outre la faculté de modifier les modalités pratiques de chaque formation dispensée.
+La société HORIZON TRANSPORTS a en outre la faculté de modifier les modalités pratiques de chaque formation dispensée.
 
-En cas d’annulation, la société CLF FORMATION rembourse la totalité du prix effectivement acquitté, sans autre indemnité d’aucune sorte. Une annulation peut être justifiée en cas de survenance d’un cas de force majeure, tels que défini par le Code civil. Seront également considérés comme ayant le caractère de la force majeure les grèves affectant les réseaux de transport.
+En cas d’annulation, la société HORIZON TRANSPORTS rembourse la totalité du prix effectivement acquitté, sans autre indemnité d’aucune sorte. Une annulation peut être justifiée en cas de survenance d’un cas de force majeure, tels que défini par le Code civil. Seront également considérés comme ayant le caractère de la force majeure les grèves affectant les réseaux de transport.
 
 Le Client peut demander l’annulation ou le report de sa participation à une formation, sans frais, si la demande formulée par mail à l’adresse 31 rue d’Armagnac SPACES BORDEAUX EURATLANTIQUE 33088 BORDEAUX au moins 14 jours ouvrés avant la date de la formation.
 
-En cas d’annulation de sa participation par le Client après le 14ème jour ouvré précédant la date de début de la formation, la société CLF FORMATION facturera au Client la totalité du prix convenu.
+En cas d’annulation de sa participation par le Client après le 14ème jour ouvré précédant la date de début de la formation, la société HORIZON TRANSPORTS facturera au Client la totalité du prix convenu.
 
 En cas d’absence à la formation, de retard, de participation partielle, d’abandon ou de cessation anticipée pour tout autre motif que la force majeure, le Client sera redevable de l’intégralité du montant convenu.
 
 Article 6 – Propriété intellectuelle
 
-Le contenu du site internet et des documents et données diffusés à l’occasion des formations dispensées (documents techniques, dessins, photographies, etc.) reste la propriété de la société CLF FORMATION, seule titulaire des droits de propriété intellectuelle sur ce contenu.
+Le contenu du site internet et des documents et données diffusés à l’occasion des formations dispensées (documents techniques, dessins, photographies, etc.) reste la propriété de la société HORIZON TRANSPORTS, seule titulaire des droits de propriété intellectuelle sur ce contenu.
 
 Les Clients s’engagent à ne faire aucun usage de ce contenu ; toute reproduction totale ou partielle de ce contenu est strictement interdite et est susceptible de constituer un délit de contrefaçon.
 </p>
@@ -129,14 +129,14 @@ Les Clients s’engagent à ne faire aucun usage de ce contenu ; toute reproduct
 
 <p>Le Client peut recourir à une médiation conventionnelle, notamment auprès de la Commission de la médiation de la consommation ou auprès des instances de médiation sectorielles existantes, ou à tout mode alternatif de règlement des différends en cas de contestation.
 
-La société CLF FORMATION informe le client qu’elle relève du médiateur dont les coordonnées sont les suivantes :
+La société HORIZON TRANSPORTS informe le client qu’elle relève du médiateur dont les coordonnées sont les suivantes :
 
-Chambre Nationale des Praticiens de la Médiation. 9, rue Grassi 33000 BORDEAUX. florence@bachelet-avocats.com – 05 56 79 38 26.
+{/* Chambre Nationale des Praticiens de la Médiation. 9, rue Grassi 33000 BORDEAUX. florence@bachelet-avocats.com – 05 56 79 38 26. */}
 </p>
 
 <h2>Article 8 – Responsabilité</h2>
 
-<p>Dans l’hypothèse où la responsabilité de la société CLF FORMATION serait retenue, le montant total de toute somme mises à la charge de la société CLF FORMATION ne pourra excéder le montant total du prix payé par le Client au titre de la Formation considérée.
+<p>Dans l’hypothèse où la responsabilité de la société HORIZON TRANSPORTS serait retenue, le montant total de toute somme mises à la charge de la société HORIZON TRANSPORTS ne pourra excéder le montant total du prix payé par le Client au titre de la Formation considérée.
 </p>
 
 <h2>Article 9 – Protection des données à caractère personnel</h2>
@@ -227,13 +227,13 @@ En application de la réglementation applicable aux données à caractère perso
 
 –  ils peuvent mettre à jour ou supprimer les données qui les concernent en se connectant à leur compte et en configurant les paramètres de ce compte ;
 
-–  ils peuvent supprimer leur compte, en écrivant à l’adresse électronique suivante : contact@clf-formation.fr. Il est à noter que les informations partagées avec d’autres utilisateurs, comme les publications sur les forums, peuvent rester visibles du public sur la Plateforme, même après la suppression de leur compte ;
+–  ils peuvent supprimer leur compte, en écrivant à l’adresse électronique suivante : contact@horizontransports.fr. Il est à noter que les informations partagées avec d’autres utilisateurs, comme les publications sur les forums, peuvent rester visibles du public sur la Plateforme, même après la suppression de leur compte ;
 
-–  ils peuvent exercer leur droit d’accès, pour connaître les données personnelles les concernant, en écrivant à l’adresse électronique suivante : contact@clf-formation.fr. Dans ce cas, avant la mise en oeuvre de ce droit, la Plateforme peut demander une preuve de l’identité de l’utilisateur afin d’en vérifier l’exactitude ;
+–  ils peuvent exercer leur droit d’accès, pour connaître les données personnelles les concernant, en écrivant à l’adresse électronique suivante : contact@horizontransports.fr. Dans ce cas, avant la mise en oeuvre de ce droit, la Plateforme peut demander une preuve de l’identité de l’utilisateur afin d’en vérifier l’exactitude ;
 
-–  si les données à caractère personnel détenues par la Plateforme sont inexactes, ils peuvent demander la mise à jour des informations, en écrivant à l’adresse électronique suivante : contact@clf-formation.fr
+–  si les données à caractère personnel détenues par la Plateforme sont inexactes, ils peuvent demander la mise à jour des informations, en écrivant à l’adresse électronique suivante : contact@horizontransports.fr
 
-–  les utilisateurs peuvent demander la suppression de leurs données à caractère personnel, conformément aux lois applicables en matière de protection des données, en écrivant à l’adresse électronique suivante : contact@clf-formation.fr
+–  les utilisateurs peuvent demander la suppression de leurs données à caractère personnel, conformément aux lois applicables en matière de protection des données, en écrivant à l’adresse électronique suivante : contact@horizontransports.fr
 
 Évolution de la présente clause
 
@@ -245,11 +245,11 @@ La Plateforme se réserve le droit d’apporter toute modification à la présen
 <h2>Article 10 – Divers</h2>
 
 <p>
-Le Client s’engage à considérer comme strictement confidentiel et s’interdit de divulguer toute information, document ou donnée dont il pourrait avoir  connaissance à l’occasion de l’accomplissement de sa prestation par la société CLF FORMATION.
+Le Client s’engage à considérer comme strictement confidentiel et s’interdit de divulguer toute information, document ou donnée dont il pourrait avoir  connaissance à l’occasion de l’accomplissement de sa prestation par la société HORIZON TRANSPORTS.
 
-La société CLF FORMATION est autorisée à sous-traiter partiellement ou totalement l’exécution des prestations objets du présent contrat.
+La société HORIZON TRANSPORTS est autorisée à sous-traiter partiellement ou totalement l’exécution des prestations objets du présent contrat.
 
-La société CLF FORMATION est autorisée à utiliser la dénomination sociale, le nom commercial et les marques du Client comme référence commerciale sur tout support dans un but marketing et/ou publicitaire sans autorisation supplémentaire.
+La société HORIZON TRANSPORTS est autorisée à utiliser la dénomination sociale, le nom commercial et les marques du Client comme référence commerciale sur tout support dans un but marketing et/ou publicitaire sans autorisation supplémentaire.
 
 Les présentes sont régies par le droit français. Tout litige se rapportant à son exécution ou son interprétation sera de la compétence exclusive du tribunal de commerce de Bordeaux.
 

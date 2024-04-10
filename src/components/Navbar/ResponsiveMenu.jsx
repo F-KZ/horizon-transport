@@ -1,5 +1,5 @@
 import React from "react";
-import { FaUserCircle } from "react-icons/fa";
+import { FaUserCircle, FaArrowCircleLeft  } from "react-icons/fa";
 
 import { Navlinks } from "./Navbar";
 
@@ -21,6 +21,7 @@ const ResponsiveMenu = ({ showMenu }) => {
           <div>
             <h1>Horizon Transports</h1>
             <h1 className="text-sm text-slate-500">formation VTC</h1>
+            <FaArrowCircleLeft onClick={hideMenu} />
           </div>
         </div>
         <nav className="mt-12">

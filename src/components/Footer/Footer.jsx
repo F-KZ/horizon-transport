@@ -7,6 +7,11 @@ import {
   FaMobileAlt,
 } from "react-icons/fa";
 import borcel from "../../assets/logo.png"
+import Programme from "../programme/Programme"
+import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom';
+import Conditions from "./Conditions"
+import Mentions from "./Mentions"
+import Politique from "./Politique"
 
 const FooterLinks = [
   {
@@ -42,17 +47,25 @@ const Footer = () => {
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3 font-serif">
               Informations Légales
             </h1>
+            <Link to="./Mentions">
             <p className="text-sm">
               Mentions Légales{" "}
             </p>
+            </Link>
             <br />
-            <p className="text-sm">
+            <Link to="./Politique">
+            <p className="text-sm" >
               Politique de confidentialité et des cookies
             </p>
+            </Link>
             <br/>
+            <Link to="./Conditions">
             <p className="text-sm">
               Conditions Générales de vente
             </p>
+            </Link>
+            <br/>
+            <Programme/>
           </div>
           {/* Social Handle */}
           <div className=" py-8 px-4 flex flex-col items-center">
