@@ -87,7 +87,7 @@ Les bases de données sont protégées par les dispositions de la loi du 1er jui
 </p>
 </div>
 <Link to='/'>
-<button>Retour à l&lsquoaccueil</button>
+<button>Retour à l'accueil</button>
 </Link>
 
         </div>

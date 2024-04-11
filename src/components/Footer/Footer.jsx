@@ -47,11 +47,11 @@ const Footer = () => {
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3 font-serif">
               Informations Légales
             </h1>
-            <a href="/Mentions">
+            <Link to="/Mentions">
             <p className="text-sm">
               Mentions Légales{" "}
             </p>
-            </a>
+            </Link>
             <br />
             <Link to="./Politique">
             <p className="text-sm" >
