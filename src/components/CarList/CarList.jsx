@@ -31,13 +31,13 @@ const CarList = () => {
         {/* Heading */}
         <h1
           data-aos="fade-up"
-          className="text-3xl sm:text-4xl font-semibold font-serif mb-3 text-center md:text-justify"
+          className="text-2xl font-semibold font-serif mb-3 text-center md:text-justify"
         >
           Chauffeur professionnel oui mais à quelles conditions ?
         </h1>
-        <p data-aos="fade-up" aos-delay="400" className=" text-xl pb-10">
+        <p data-aos="fade-up" aos-delay="400" className=" text-3xl  pb-10">
          
-Il existe des pré-requis pour devenir chauffeur professionnel.
+Il existe des <span className="font-semibold">pré-requis</span> pour devenir chauffeur professionnel.
         </p>
         {/* Car listing */}
         <div>

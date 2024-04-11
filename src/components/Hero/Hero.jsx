@@ -45,13 +45,11 @@ const Hero = ({ theme }) => {
             <h1
               data-aos="fade-up"
               data-aos-delay="600"
-              className="text-4xl lg:text-7xl font-semibold font-serif text-center md:text-justify"
+              className="text-2xl lg:text-4xl font-semibold font-serif text-center md:text-justify"
             >
-              NOS FORMATIONS
+              Vous voulez devenir chauffeur professionnel VTC ou Taxi ? 
             </h1>
-            <p data-aos="fade-up" data-aos-delay="1000" className="text-justify">
-            Vous voulez devenir chauffeur professionnel VTC ou Taxi ? 
-            <br/>
+            <p data-aos="fade-up" data-aos-delay="1000" className=" text-2xl text-justify">
             Nous mettons à votre disposition un accompagnement sur-mesure, pour garantir votre réussite. {" "}
             </p>
             <button
