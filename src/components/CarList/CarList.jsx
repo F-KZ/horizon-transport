@@ -32,7 +32,7 @@ const CarList = () => {
         {/* Heading */}
         <h1
           data-aos="fade-up"
-          className="text-2xl font-semibold font-serif mb-3 text-center md:text-justify"
+          className="text-2xl font-semibold  mb-3 text-center md:text-justify"
         >
           Chauffeur professionnel oui mais à quelles conditions ?
         </h1>
