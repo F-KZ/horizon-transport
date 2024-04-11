@@ -10,8 +10,9 @@ const Prix = () => {
             <h1 className='font-bold text-4xl tracking-wide'> Tarif Unique</h1>
             <span>2449,00€</span>
             <ul className='flex flex-col space-y-6 items-center'>
+            <li>inclus</li>
                 <li>Formation théorique VTC ou Taxi.</li>
-                <li>Formation pratique examen.</li>
+                <li>Formation pratique examen VTC ou Taxi.</li>
                 <li>Mise à disposition du véhicule équipé le jour de l’examen pratique.</li>
             </ul>
 

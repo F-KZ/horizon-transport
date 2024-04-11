@@ -5,7 +5,7 @@ import {
   FaPhoneAlt,
   FaAt,
 } from "react-icons/fa";
-import story from "../../assets/story7.png"
+import story from "../../assets/story8.png"
 
 const Form = () => {
   return (
