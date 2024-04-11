@@ -12,6 +12,7 @@ import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom'
 import Conditions from "./Conditions"
 import Mentions from "./Mentions"
 import Politique from "./Politique"
+import Taxi from "../programme/Taxi";
 
 const FooterLinks = [
   {
@@ -66,6 +67,8 @@ const Footer = () => {
             </Link>
             <br/>
             <Programme/>
+            <br/>
+            <Taxi/>
           </div>
           {/* Social Handle */}
           <div className=" py-8 px-4 flex flex-col items-center sm:items-start">
