@@ -19,7 +19,7 @@ const skillsData = [
       <GiNotebook className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
     link: "#",
-    description: "Un interlocuteur dédié à votre projet du début jusqu'à l'obtention de votre carte professionnel.",
+    description: "Un interlocuteur dédié à votre projet du début jusqu'à l'obtention de votre carte professionnelle.",
     aosDelay: "500",
   },
   {

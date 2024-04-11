@@ -18,10 +18,10 @@ const Theory = () => {
 const Pratique = () => {
   return (
     <ul className="space-y-3">
-     <li>Pour tous préparation, capacité commercial et touristique. </li>
+     <li>Pour tous, préparation capacité commercial et touristique. </li>
     <li>Pour le VTC, devis et facture.</li>
     <li>Pour le Taxi, utilisation de tous les équipements spéciaux.</li>
-    <li>Pratique sur un véhicule équipé double commande disposant d&apos;eau, confuseries, magasines et journaux.</li>
+    <li>Pratique sur un véhicule équipé double commande disposant d&apos;eau, confiseries, magasines et journaux.</li>
     
     
     </ul>
@@ -31,8 +31,8 @@ const Pratique = () => {
 const Accompagnement = () => {
   return (
     <p className="space-y-3">
-    Pour tous un accompagnement individualisé et personnalisé; pour les VTC jusqu&apos;à l&apos;inscription sur la liste nationale, <br/> 
-    pour les Taxis jusqu&apos;à l&apos;obstention de la carte professionnel.
+    Pour tous, un accompagnement individualisé et personnalisé; pour les VTC jusqu&apos;à l&apos;inscription sur la liste nationale, <br/> 
+    pour les Taxis jusqu&apos;à l&apos;obstention de la carte professionnelle.
     
     </p>
   )
@@ -76,7 +76,7 @@ const Testimonial = () => {
               Programme de nos Formations
             </p>
             <p data-aos="fade-up" className="text-center sm:px-44">
-              Notre programme à été élaboré pour que vous ayez entre les mains tout les éléments nécessaires pour garantir votre réussite.
+              Notre programme a été élaboré pour que vous ayez entre les mains tous les éléments nécessaires pour garantir votre réussite.
             </p>
           </div>
 

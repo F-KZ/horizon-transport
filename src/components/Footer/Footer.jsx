@@ -35,7 +35,7 @@ const Footer = () => {
   return (
     <div className="bg-gray-100 dark:bg-dark mt-14 rounded-t-3xl">
       <section className="container">
-        <div className=" flex flex-row items-center sm:justify-between justify-center flex-wrap py-5">
+        <div className=" flex flex-row sm:justify-between justify-center flex-wrap py-5">
           {/* company Details */}
           <div className=" py-8 px-4 "> <img
             width={260}
@@ -47,11 +47,11 @@ const Footer = () => {
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3 font-serif">
               Informations Légales
             </h1>
-            <Link to="./Mentions">
+            <a href="/Mentions">
             <p className="text-sm">
               Mentions Légales{" "}
             </p>
-            </Link>
+            </a>
             <br />
             <Link to="./Politique">
             <p className="text-sm" >
@@ -68,7 +68,7 @@ const Footer = () => {
             <Programme/>
           </div>
           {/* Social Handle */}
-          <div className=" py-8 px-4 flex flex-col items-center">
+          <div className=" py-8 px-4 flex flex-col items-center sm:items-start">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3 font-serif">
               Horizon Transports
             </h1>

@@ -51,28 +51,32 @@ const App = () => {
   return (
     <Router>
       <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden">
-        <Navbar theme={theme} setTheme={setTheme} />
-        <Hero theme={theme} />
-            <About />
-            <Services />
-            <CarList />
-            <Testimonial/> 
-            <Indicateur/>
-           {/* <Experience/> */}
-            <Prix/>
-            <Form />
         <Routes>
-          <Route path="/" exact>
-          <Route path="/Conditions" Component={Conditions} />
-          <Route path="/Mentions" element={<Mentions/>} />
-          <Route path="/Politique" element={<Politique/>} />
-           
-          </Route>
+          <Route path="/" element={<Home theme={theme} setTheme={setTheme}  />} />
+          <Route path="/conditions" element={<Conditions theme={theme === "light"}/>} />
+          <Route path="/mentions" element={<Mentions theme={theme === "light"}/>} />
+          <Route path="/politique" element={<Politique theme={theme === "light"}   />} />
         </Routes>
         <Footer />
       </div>
     </Router>
   );
 };
+
+function Home({ theme, setTheme }) {
+  return (
+    <>
+      <Navbar theme={theme} setTheme={setTheme} />
+      <Hero theme={theme}/>
+      <About />
+      <Services />
+      <CarList />
+      <Testimonial />
+      <Indicateur />
+      <Prix />
+      <Form />
+    </>
+  );
+}
 
 export default App;
