@@ -35,7 +35,7 @@ const CarList = () => {
         >
           Chauffeur professionnel oui mais à quelles conditions ?
         </h1>
-        <p data-aos="fade-up" aos-delay="400" className=" text-sm pb-10">
+        <p data-aos="fade-up" aos-delay="400" className=" text-lg pb-10">
          
 Il existe des pré-requis pour devenir chauffeur professionnel.
         </p>
@@ -68,13 +68,13 @@ Il existe des pré-requis pour devenir chauffeur professionnel.
         <div className="grid place-items-center mt-8">
           <button data-aos="zoom-in"   className="button-outline">
           <a href="https://www.francecompetences.fr/recherche/rs/5637/" target="_blank" rel="noopener noreferrer">
-          Habilitation pour l’accès à la profession de conducteur de voiture de transport avec chauffeur (VTC) 
+          Habilitation pour l’accès à la profession de conducteur de voiture de transport avec chauffeur (VTC), Fiche : RS5637
           </a>
           </button>
           <br/>
           <button data-aos="zoom-in"  className="button-outline">
           <a href="https://www.francecompetences.fr/recherche/rs/5635//" target="_blank" rel="noopener noreferrer">
-          Habilitation pour l’accès à la profession de conducteur de taxi
+          Habilitation pour l’accès à la profession de conducteur de Taxi, Fiche : RS5635
           </a>
           </button>
         </div>

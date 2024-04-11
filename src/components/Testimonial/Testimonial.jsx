@@ -73,7 +73,7 @@ const Testimonial = () => {
               data-aos="fade-up"
               className="text-3xl font-semibold text-center sm:text-4xl font-serif"
             >
-              Programme de nos Formations
+              Programmes de nos Formations
             </p>
             <p data-aos="fade-up" className="text-center sm:px-44">
               Notre programme a été élaboré pour que vous ayez entre les mains tous les éléments nécessaires pour garantir votre réussite.
