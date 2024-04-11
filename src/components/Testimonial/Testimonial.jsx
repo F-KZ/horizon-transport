@@ -76,7 +76,7 @@ const Testimonial = () => {
               Programmes de nos Formations
             </p>
             <p data-aos="fade-up" className="text-center sm:px-44">
-              Notre programme a été élaboré pour que vous ayez entre les mains tous les éléments nécessaires pour garantir votre réussite.
+              Nos programmes ont été élaborés pour que vous ayez entre les mains tous les éléments nécessaires pour garantir votre réussite.
             </p>
           </div>
 
