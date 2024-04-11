@@ -1,9 +1,10 @@
 
 
-const PDF= "http://horizontransports.fr/public/Programme.pdf"
+import React from 'react';
 
- const Programme = () => {
+const PDF_URL = "https://horizontransports.fr/Programme.pdf";
 
+const Programme = () => {
   const downloadFiles = (url) => {
     const link = document.createElement('a')
     const fileName = url.split('/').pop()
@@ -14,13 +15,12 @@ const PDF= "http://horizontransports.fr/public/Programme.pdf"
     link.click()
   }
   
-  
 
   return (
     <div>
-      <p onClick={() => {downloadFiles(PDF)}} className='cursor-pointer' >Programme VTC</p>
+      <p onClick={() => { downloadFiles(PDF_URL) }} className='cursor-pointer'>Programme VTC</p>
     </div>
   );
 };
 
-export default Programme
+export default Programme;
