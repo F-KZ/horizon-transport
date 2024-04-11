@@ -9,10 +9,10 @@ const Indicateur = () => {
             <div className='flex flex-col flex-nowrap space-y-6 border-double border-4 border-sky-500 p-4 rounded-lg'>
             <h1 className='font-bold text-4xl tracking-wide'> Indicateurs de résultat à venir :</h1>
             <ul className='flex flex-col space-y-6 items-center'>
-                <li><span>⭐</span>Taux de satisfaction : </li>
-                <li><span>⭐</span>Taux de recommandation :</li>
-                <li><span>⭐</span>Taux de réussite à l'examen Taxi :</li>
-                <li><span>⭐</span>Taux de réussite à l'examen VTC :</li>
+                <li>Taux de satisfaction : </li>
+                <li>Taux de recommandation :</li>
+                <li>Taux de réussite à l'examen Taxi :</li>
+                <li>Taux de réussite à l'examen VTC :</li>
             </ul>
 
             </div>

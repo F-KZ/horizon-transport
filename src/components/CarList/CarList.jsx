@@ -1,4 +1,5 @@
 import React from "react";
+import { FaAngleDoubleDown } from "react-icons/fa";
 import whiteCar from "../../assets/balanceColor.png";
 import car2 from "../../assets/exam.png";
 import car3 from "../../assets/permis.png";
@@ -35,9 +36,9 @@ const CarList = () => {
         >
           Chauffeur professionnel oui mais à quelles conditions ?
         </h1>
-        <p data-aos="fade-up" aos-delay="400" className=" text-3xl  pb-10">
+        <p data-aos="fade-up" aos-delay="400" className=" text-2xl  pb-10 flex flex-row items-center gap-2">
          
-Il existe des <span className="font-semibold">pré-requis</span> pour devenir chauffeur professionnel.
+ <span className="font-semibold">Prérequis</span>: <FaAngleDoubleDown />
         </p>
         {/* Car listing */}
         <div>
