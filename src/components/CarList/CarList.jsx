@@ -35,7 +35,7 @@ const CarList = () => {
         >
           Chauffeur professionnel oui mais à quelles conditions ?
         </h1>
-        <p data-aos="fade-up" aos-delay="400" className=" text-lg pb-10">
+        <p data-aos="fade-up" aos-delay="400" className=" text-xl pb-10">
          
 Il existe des pré-requis pour devenir chauffeur professionnel.
         </p>

@@ -7,7 +7,7 @@ const Indicateur = () => {
             data-aos-duration="1500"
             data-aos-once="false" className="flex justify-center items-center px-4 sm:pt-12 pb-9 sm:pb-0">
             <div className='flex flex-col flex-nowrap space-y-6 border-double border-4 border-sky-500 p-4 rounded-lg'>
-            <h1 className='font-bold text-4xl tracking-wide'> INDICATEURS DE RESULTAT A VENIR :</h1>
+            <h1 className='font-bold text-4xl tracking-wide'> Indicateurs de résultat à venir :</h1>
             <ul className='flex flex-col space-y-6 items-center sm:items-start'>
                 <li><span>⭐</span>Taux de satisfaction : </li>
                 <li><span>⭐</span>Taux de recommandation :</li>
