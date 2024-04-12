@@ -17,7 +17,7 @@ import Politique from "./components/Footer/Politique";
 import Conditions from "./components/Footer/Conditions";
 import Mentions from "./components/Footer/Mentions";
 import Indicateur from "./components/Indicateur/Indicateur";
-import { BrowserRouter, Router, Routes, Route} from "react-router-dom";
+import { HashRouter, Router, Routes, Route} from "react-router-dom";
 // import Experience from "./components/Experience/Experience";
 
 const App = () => {
@@ -48,7 +48,7 @@ const App = () => {
     AOS.refresh();
   }, []);
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden">
         <Routes>
           <Route path="/" element={<Home theme={theme} setTheme={setTheme}  />} />
@@ -58,7 +58,7 @@ const App = () => {
         </Routes>
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
