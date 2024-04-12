@@ -14,9 +14,9 @@ import Form from "./components/Contact/Form"
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import AppStoreBanner from "./components/AppStoreBanner/AppStoreBanner";
 import Prix from "./components/Prix/Prix";
-import {Politique} from "./components/Footer/Politique";
-import {Conditions} from "./components/Footer/Conditions";
-import {Mentions} from "./components/Footer/Mentions";
+import Politique from "./components/Footer/Politique";
+import Conditions from "./components/Footer/Conditions";
+import Mentions from "./components/Footer/Mentions";
 import Indicateur from "./components/Indicateur/Indicateur";
 // import Experience from "./components/Experience/Experience";
 
