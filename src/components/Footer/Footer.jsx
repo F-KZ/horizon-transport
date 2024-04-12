@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 import borcel from "../../assets/logo.png"
 import Programme from "../programme/Programme"
-import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, NavLink, Navigate } from 'react-router-dom';
 import Conditions from "./Conditions"
 import Mentions from "./Mentions"
 import Politique from "./Politique"
@@ -54,17 +54,17 @@ const Footer = () => {
             </p>
             </Link>
             <br />
-            <Link to="./politique">
+            <Navigate to="./politique">
             <p className="text-sm" >
               Politique de confidentialité et des cookies
             </p>
-            </Link>
+            </Navigate>
             <br/>
-            <Link to="./conditions">
+            <a href="./conditions">
             <p className="text-sm">
               Conditions Générales de vente
             </p>
-            </Link>
+            </a>
             <br/>
             <Programme/>
             <br/>
