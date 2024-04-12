@@ -11,13 +11,13 @@ import CarList from "./components/CarList/CarList";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Footer from "./components/Footer/Footer";
 import Form from "./components/Contact/Form"
-import { BrowserRouter, Router, Routes, Route} from "react-router-dom";
 import AppStoreBanner from "./components/AppStoreBanner/AppStoreBanner";
 import Prix from "./components/Prix/Prix";
 import Politique from "./components/Footer/Politique";
 import Conditions from "./components/Footer/Conditions";
 import Mentions from "./components/Footer/Mentions";
 import Indicateur from "./components/Indicateur/Indicateur";
+import { BrowserRouter, Router, Routes, Route} from "react-router-dom";
 // import Experience from "./components/Experience/Experience";
 
 const App = () => {
@@ -50,12 +50,10 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden">
-        <Routes>
           <Route path="/" element={<Home theme={theme} setTheme={setTheme}  />} />
           <Route path="/conditions" element={<Conditions/>} />
           <Route path="/mentions" element={<Mentions/>} />
           <Route path="/politique" element={<Politique />} />
-        </Routes>
         <Footer />
       </div>
     </BrowserRouter>
