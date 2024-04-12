@@ -54,11 +54,11 @@ const Footer = () => {
             </p>
             </Link>
             <br />
-            <Link to="/politique">
+            <a href="/politique">
             <p className="text-sm" >
               Politique de confidentialité et des cookies
             </p>
-            </Link>
+            </a>
             <br/>
             <Link to="/conditions">
             <p className="text-sm">
