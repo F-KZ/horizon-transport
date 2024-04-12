@@ -50,10 +50,12 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden">
+        <Routes>
           <Route path="/" element={<Home theme={theme} setTheme={setTheme}  />} />
           <Route path="/conditions" element={<Conditions/>} />
           <Route path="/mentions" element={<Mentions/>} />
           <Route path="/politique" element={<Politique />} />
+        </Routes>
         <Footer />
       </div>
     </BrowserRouter>
