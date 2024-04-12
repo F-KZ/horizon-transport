@@ -11,7 +11,7 @@ import CarList from "./components/CarList/CarList";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Footer from "./components/Footer/Footer";
 import Form from "./components/Contact/Form"
-import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import { BrowserRouter, Router, Routes, Route} from "react-router-dom";
 import AppStoreBanner from "./components/AppStoreBanner/AppStoreBanner";
 import Prix from "./components/Prix/Prix";
 import Politique from "./components/Footer/Politique";
@@ -48,7 +48,7 @@ const App = () => {
     AOS.refresh();
   }, []);
   return (
-    <Router>
+    <BrowserRouter>
       <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden">
         <Routes>
           <Route path="/" element={<Home theme={theme} setTheme={setTheme}  />} />
@@ -58,7 +58,7 @@ const App = () => {
         </Routes>
         <Footer />
       </div>
-    </Router>
+    </BrowserRouter>
   );
 };
 
