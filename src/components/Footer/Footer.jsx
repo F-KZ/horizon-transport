@@ -54,13 +54,13 @@ const Footer = () => {
             </p>
             </Link>
             <br />
-            <Link to="./politique">
+            <Link to="/politique">
             <p className="text-sm" >
               Politique de confidentialité et des cookies
             </p>
             </Link>
             <br/>
-            <Link to="./conditions">
+            <Link to="/conditions">
             <p className="text-sm">
               Conditions Générales de vente
             </p>
