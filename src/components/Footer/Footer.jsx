@@ -48,19 +48,19 @@ const Footer = () => {
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3 font-serif">
               Informations Légales
             </h1>
-            <Link to="/Mentions">
+            <Link to="/mentions">
             <p className="text-sm">
               Mentions Légales{" "}
             </p>
             </Link>
             <br />
-            <Link to="./Politique">
+            <Link to="./politique">
             <p className="text-sm" >
               Politique de confidentialité et des cookies
             </p>
             </Link>
             <br/>
-            <Link to="./Conditions">
+            <Link to="./conditions">
             <p className="text-sm">
               Conditions Générales de vente
             </p>
