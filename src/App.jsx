@@ -11,7 +11,6 @@ import CarList from "./components/CarList/CarList";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Footer from "./components/Footer/Footer";
 import Form from "./components/Contact/Form"
-import Transit from "./components/Transit/Transit";
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import AppStoreBanner from "./components/AppStoreBanner/AppStoreBanner";
 import Prix from "./components/Prix/Prix";
