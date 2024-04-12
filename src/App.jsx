@@ -52,9 +52,9 @@ const App = () => {
       <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden">
         <Routes>
           <Route path="/" element={<Home theme={theme} setTheme={setTheme}  />} />
-          <Route path="./Conditions" element={<Conditions/>} />
-          <Route path="./Mentions" element={<Mentions/>} />
-          <Route path="./Politique" element={<Politique />} />
+          <Route path="/Conditions" element={<Conditions/>} />
+          <Route path="/Mentions" element={<Mentions/>} />
+          <Route path="/Politique" element={<Politique />} />
         </Routes>
         <Footer />
       </div>
