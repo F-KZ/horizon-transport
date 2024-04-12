@@ -27,7 +27,7 @@ Les présentes CGV concernent les formations présentielles et distancielles. Le
 <p>
 L’inscription à une formation se matérialise par l’envoi d’un formulaire en ligne :
 
-Le Client a la possibilité de passer sa commande en ligne, à partir du catalogue en ligne et au moyen du formulaire qui y figure, pour toute formation.
+Le Client a la possibilité de passer sa commande par le biais des différents qui figure sur horizontransports.fr, pour toute formation.
 
 Pour que la commande soit validée, le Client devra signer les présentes conditions générales.
 
@@ -49,7 +49,7 @@ La fourniture en ligne du numéro de carte bancaire du Client et la validation f
 
 –  signature et acception expresse de toutes les opérations effectuées.
 
-En cas d’utilisation frauduleuse de la carte bancaire, le Client est invité, dès le constat de cette utilisation, à contacter le 0785438860.
+En cas d’utilisation frauduleuse de la carte bancaire, le Client est invité, dès le constat de cette utilisation, à contacter le 07 69 98 98 85.
 
 
 Confirmation de commande
@@ -116,7 +116,7 @@ Ce droit de rétractation est exclu pour : les contrats de services dont l’ex�
 Conformément aux dispositions du code de la consommation, le Client consommateur dispose d’un délai de 14 jours ouvrables à compter de la date de son inscription à une formation pour demander un remboursement sans pénalité.
 
 
-Le droit de rétractation peut être exercé en ligne, à l’aide du formulaire de rétractation disponible sur le site internet. Dans ce cas, l’acheteur doit envoyer par lettre recommandé avec accusé de réception le formulaire au siège de la société HORIZON TRANSPORTS. Tout autre mode de déclaration de rétractation n’est pas accepté. Il doit être dénué d’ambiguïté et exprimer la volonté de se rétracter.
+Le droit de rétractation peut être exercé en mail ou téléphone disponible sur le site internet. Dans ce cas, l’acheteur doit envoyer par lettre recommandé avec accusé de réception le formulaire au siège de la société HORIZON TRANSPORTS. Tout autre mode de déclaration de rétractation n’est pas accepté. Il doit être dénué d’ambiguïté et exprimer la volonté de se rétracter.
 
 En cas d’exercice du droit de rétractation dans le délai susvisé, sont remboursés le prix de la prestation.
 
@@ -126,7 +126,7 @@ La société HORIZON TRANSPORTS a en outre la faculté de modifier les modalité
 
 En cas d’annulation, la société HORIZON TRANSPORTS rembourse la totalité du prix effectivement acquitté, sans autre indemnité d’aucune sorte. Une annulation peut être justifiée en cas de survenance d’un cas de force majeure, tels que défini par le Code civil. Seront également considérés comme ayant le caractère de la force majeure les grèves affectant les réseaux de transport.
 
-Le Client peut demander l’annulation ou le report de sa participation à une formation, sans frais, si la demande formulée par mail à l’adresse 31 rue d’Armagnac SPACES BORDEAUX EURATLANTIQUE 33088 BORDEAUX au moins 14 jours ouvrés avant la date de la formation.
+Le Client peut demander l’annulation ou le report de sa participation à une formation, sans frais, si la demande formulée par mail à l’adresse 17 rue Maletra, 76140 LE PETIT-QUEVILLY au moins 14 jours ouvrés avant la date de la formation.
 
 En cas d’annulation de sa participation par le Client après le 14ème jour ouvré précédant la date de début de la formation, la société HORIZON TRANSPORTS facturera au Client la totalité du prix convenu.
 
@@ -276,7 +276,7 @@ La société HORIZON TRANSPORTS est autorisée à sous-traiter partiellement ou 
 
 La société HORIZON TRANSPORTS est autorisée à utiliser la dénomination sociale, le nom commercial et les marques du Client comme référence commerciale sur tout support dans un but marketing et/ou publicitaire sans autorisation supplémentaire.
 
-Les présentes sont régies par le droit français. Tout litige se rapportant à son exécution ou son interprétation sera de la compétence exclusive du tribunal de commerce de Bordeaux.
+Les présentes sont régies par le droit français. Tout litige se rapportant à son exécution ou son interprétation sera de la compétence exclusive du tribunal de commerce de Rouen.
 
 </p>
 
