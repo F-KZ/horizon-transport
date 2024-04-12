@@ -54,7 +54,7 @@ const App = () => {
           <Route path="/" element={<Home theme={theme} setTheme={setTheme}  />} />
           <Route path="/conditions" element={<Conditions/>} />
           <Route path="/mentions" element={<Mentions/>} />
-          <Route path="/politique" element={<Politique />} />
+          <Route path="/politique-de-confidentialite" element={<Politique />} />
         </Routes>
         <Footer />
       </div>

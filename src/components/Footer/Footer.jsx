@@ -54,7 +54,7 @@ const Footer = () => {
             </p>
             </Link>
             <br />
-            <Link to="/politique">
+            <Link to="/politique-de-confidentialite">
             <p className="text-sm" >
               Politique de confidentialité et des cookies
             </p>
