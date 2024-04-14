@@ -98,7 +98,6 @@ const Testimonial = () => {
           </div>
         </div>
       </div>
-      <span id="contact"></span>
     </>
   );
 };

@@ -21,7 +21,7 @@ export const Navlinks = [
   {
     id: 1,
     name: "Contactez-nous",
-    link: "#contact",
+    link: "#info",
   },
 ];
 
@@ -99,7 +99,7 @@ const Navbar = ({ theme, setTheme }) => {
           </div>
         </div>
       </div>
-      <ResponsiveMenu showMenu={showMenu} />
+      <ResponsiveMenu showMenu={showMenu} setShowMenu={setShowMenu} />
     </div>
   );
 };

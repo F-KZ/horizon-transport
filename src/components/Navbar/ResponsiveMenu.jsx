@@ -1,14 +1,16 @@
 import React from "react";
 import { FaUserCircle, FaArrowCircleLeft  } from "react-icons/fa";
+import { ImCross } from "react-icons/im";
 
 import { Navlinks } from "./Navbar";
 
-const ResponsiveMenu = ({ showMenu }) => {
+const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
   console.log("showMenu", showMenu);
 
   const hideMenu = () => {
-    showMenu(false);
+    setShowMenu(() => false);
   }
+  
   return (
     <div
       className={`${
@@ -20,19 +22,19 @@ const ResponsiveMenu = ({ showMenu }) => {
           <FaUserCircle size={50} />
           <div>
             <h1>Horizon Transports</h1>
-            <h1 className="text-sm text-slate-500">formation VTC</h1>
-            <FaArrowCircleLeft onClick={hideMenu} />
+            <h1 className="text-sm text-slate-500">formation VTC & Taxi</h1>
           </div>
         </div>
         <nav className="mt-12">
           <ul className="space-y-4 text-xl">
             {Navlinks.map((data) => (
-              <li onClick={hideMenu} >
+              <li >
                 <a href={data.link} className="mb-5 inline-block">
                   {data.name}
                 </a>
               </li>
             ))}
+            <p className="text-sm" onClick={hideMenu} >Fermez le menu </p>
           </ul>
         </nav>
       </div>
