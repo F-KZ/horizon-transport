@@ -9,8 +9,8 @@ const transporter = createTransport({
      port: 587,
      secure: false, // Use TLS
      auth: {
-       user: "horizontransports-victoire@hotmail.com",
-       pass:"V&aj161127"
+       user: process.env.EMAIL_USER,
+       pass: process.env.EMAIL_PASS
      },
      tls: {
        ciphers: 'SSLv3'
@@ -25,7 +25,7 @@ const transporter = createTransport({
      const { firstName, email, message } = req.body;
    
      const mailOptions = {
-       from: "horizontransports-victoire@hotmail.com",
+       from: process.env.EMAIL_USER,
        to: `${email}`,
        subject: 'Nouveau message du formulaire',
        text: `Nom Complet: ${firstName}\nEmail: ${email}\nMessage: ${message}`
