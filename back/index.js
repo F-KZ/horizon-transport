@@ -8,7 +8,8 @@ app.use(express.json());
 
 const allowedOrigins = [
   'https://horizon-transports-main-ekk9c26a2-fkz.vercel.app',
-  'https://horizon-transports-contact.vercel.app'
+  'https://horizon-transports-contact.vercel.app',
+  'https://www.horizontransports.fr'
 ];
 
 app.use(cors({
