@@ -5,15 +5,28 @@ import sendForm from './routes/formulaire.js';
 
 const app = express();
 app.use(express.json());
+
+const allowedOrigins = [
+  'https://horizon-transports-main-ekk9c26a2-fkz.vercel.app',
+  'https://horizon-transports-contact.vercel.app'
+];
+
 app.use(cors({
-  origin: 'https://horizon-transport-back.vercel.app',
-  methods: ["POST", "GET", "OPTIONS"],
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.indexOf(origin) !== -1) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  methods: ['POST', 'GET', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
 }));
 
 // Handle preflight requests for /send
 app.options('/send', (req, res) => {
-  res.setHeader('Access-Control-Allow-Origin', 'https://horizon-transport-back.vercel.app');
+  res.setHeader('Access-Control-Allow-Origin', req.headers.origin);
   res.setHeader('Access-Control-Allow-Methods', 'POST, GET, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
   res.setHeader('Access-Control-Allow-Credentials', 'true');
