@@ -8,7 +8,7 @@ const MyForm = () => {
 
   const onSubmit = async data => {
     try {
-      const response = await fetch('https://horizon-transport-zh3k.vercel.app/send', {
+      const response = await fetch('https://horizon-transport-back.vercel.app/send', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
