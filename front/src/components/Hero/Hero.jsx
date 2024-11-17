@@ -33,7 +33,7 @@ const Hero = ({ theme }) => {
             <img
             width={592}
             height={552}
-              src={theme === "dark" ? carPng : faceCar}
+              src={carPng}
               alt=""
               className="sm:scale-125 relative -z-10 max-h-[600px] drop-shadow-[2px_20px_6px_rgba(0,0,0,0.50)]"
             />

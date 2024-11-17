@@ -1,17 +1,12 @@
 import React from "react";
 import {
-  FaFacebook,
-  FaInstagram,
-  FaLinkedin,
   FaLocationArrow,
   FaMobileAlt,
 } from "react-icons/fa";
 import borcel from "../../assets/logo.png"
 import Programme from "../programme/Programme"
 import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom';
-import Conditions from "./Conditions"
-import Mentions from "./Mentions"
-import Politique from "./Politique"
+import qualio from "../../assets/qualio1.png"
 import Taxi from "../programme/Taxi";
 
 const FooterLinks = [
@@ -88,6 +83,14 @@ const Footer = () => {
               <a href="tel:+33 7 69 98 98 85">+33 7 69 98 98 85</a>
               <br/>
               <a href="tel:+33 9 81 03 60 52">+33 9 81 03 60 52</a>
+            </div>
+            <div className="flex mt-4">
+            <img
+              src={qualio}
+              alt="logo qualiopi"
+              width={200}
+              height={200}
+            />
             </div>
           </div>
           {/* <div className="footer">

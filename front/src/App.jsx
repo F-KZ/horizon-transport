@@ -23,7 +23,7 @@ import { BrowserRouter, Router, Routes, Route} from "react-router-dom";
 const App = () => {
   // dark mode start
   const [theme, setTheme] = useState(
-    localStorage.getItem("theme") ? localStorage.getItem("theme") : "dark"
+     localStorage.setItem("theme", "dark") 
   );
   const element = document.documentElement;
 
@@ -31,9 +31,6 @@ const App = () => {
     if (theme === "dark") {
       element.classList.add("dark");
       localStorage.setItem("theme", "dark");
-    } else {
-      element.classList.remove("dark");
-      localStorage.setItem("theme", "light");
     }
   }, [theme]);
   // dark mode end
