@@ -10,8 +10,8 @@ import qualio from "../../assets/qualio2.jpeg"
 import Taxi from "../programme/Taxi";
 import downloadFiles from "../utils/lib"
 
-const PDF_Taxi = " /Taxi.pdf";
-const PDF_VTC = "/VTC.pdf";
+const PDF_Taxi = " /agrementTaxi.pdf";
+const PDF_VTC = "/agrementVTC.pdf";
 
 const FooterLinks = [
   {
