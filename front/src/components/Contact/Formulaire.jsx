@@ -1,32 +1,35 @@
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
+import emailjs from 'emailjs-com';
 
 const MyForm = () => {
-  const { register, handleSubmit, reset, formState: { errors } } = useForm();
+  const { register, handleSubmit, formState: { errors }, reset } = useForm();
+  const [loading, setLoading] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [error, setError] = useState('');
 
-  const onSubmit = async data => {
-    try {
-      const response = await fetch('https://horizon-transport-back.vercel.app/send', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
+  const onSubmit = (data) => {
+    setLoading(true);
+    setIsSubmitted(false); 
+
+    emailjs
+      .send(
+        'service_xs4nptt', // Replace with your EmailJS service ID
+        'template_eyy2u7e', // Replace with your EmailJS template ID
+        data,
+        'HEH_5GqifCb6Bv51U' // Replace with your EmailJS public key
+      )
+      .then(
+        () => {
+          setIsSubmitted(true)
+          reset(); // Clear the form after submission
+          setLoading(false);
         },
-        body: JSON.stringify(data)
-      });
-
-      if (response.ok) {
-        console.log(data);
-        reset();
-        setIsSubmitted(true);
-        setTimeout(() => setIsSubmitted(false), 3000);
-      } else {
-        setError('Erreur lors de l\'envoi du message');
-      }
-    } catch (err) {
-      setError('Erreur lors de l\'envoi du message');
-    }
+        (error) => {
+          alert('Échec de l\'envoi du message, veuillez réessayer.');
+          console.error('EmailJS Error:', error);
+          setLoading(false);
+        }
+      );
   };
 
   return (
@@ -36,16 +39,17 @@ const MyForm = () => {
           <label htmlFor="firstName" className="text-sm">Nom Complet</label>
           <input
             id="firstName"
-            className=" text-black mt-2 ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-300"
+            className="text-black mt-2 ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-300"
             {...register('firstName', { required: 'Champs Requis' })}
           />
-          {errors.firstName && <span>{errors.firstName.message}</span>}
+          {errors.firstName && <span className="text-red-500 text-sm">{errors.firstName.message}</span>}
         </div>
 
         <div>
           <label htmlFor="email" className="text-sm">Email</label>
           <input
             id="email"
+            type="email"
             className="text-black mt-2 ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-300"
             {...register('email', {
               required: 'Champs Requis',
@@ -55,7 +59,7 @@ const MyForm = () => {
               }
             })}
           />
-          {errors.email && <span>{errors.email.message}</span>}
+          {errors.email && <span className="text-red-500 text-sm">{errors.email.message}</span>}
         </div>
 
         <div>
@@ -63,20 +67,23 @@ const MyForm = () => {
           <textarea
             id="message"
             rows="4"
-            placeholder=" Message..."
-            className=" text-black mt-2 ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-300"
+            placeholder="Message..."
+            className="text-black mt-2 ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-300"
             {...register('message', { required: 'Champs Requis' })}
           />
-          {errors.message && <span>{errors.message.message}</span>}
+          {errors.message && <span className="text-red-500 text-sm">{errors.message.message}</span>}
         </div>
 
-        <button type="submit" className="inline-block self-end bg-cyan-700 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm">
-          Envoyer
+        <button
+          type="submit"
+          className="inline-block self-end bg-cyan-700 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm"
+          disabled={loading}
+        >
+          {loading ? 'Envoi...' : 'Envoyer'}
         </button>
       </form>
-
       {isSubmitted && (
-        <div className="mt-4 p-2 bg-green-100 text-green-700 rounded-md">
+        <div className="mt-4 p-4 bg-green-100 border border-green-400 text-green-700 rounded-md">
           Votre message a été envoyé avec succès !
         </div>
       )}
