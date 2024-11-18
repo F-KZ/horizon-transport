@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BiSolidSun, BiSolidMoon } from "react-icons/bi";
+//import { BiSolidSun, BiSolidMoon } from "react-icons/bi";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import ResponsiveMenu from "./ResponsiveMenu";
 import { Link } from "react-router-dom";
@@ -71,7 +71,7 @@ const Navbar = ({ theme, setTheme }) => {
           </nav>
           {/* Mobile view  */}
           <div className="flex items-center gap-4 md:hidden ">
-            {/* dark  mode */}
+            {/* dark  mode 
             {theme === "dark" ? (
               <BiSolidSun
                 onClick={() => setTheme("light")}
@@ -83,6 +83,7 @@ const Navbar = ({ theme, setTheme }) => {
                 className="text-2xl"
               />
             )}
+            */}
             {/* Mobile Hamburger icon */}
             {showMenu ? (
               <HiMenuAlt1
