@@ -3,10 +3,10 @@ import {
   FaLocationArrow,
   FaMobileAlt,
 } from "react-icons/fa";
-import borcel from "../../assets/logo.png"
-import Programme from "../programme/Programme"
-import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom';
-import qualio from "../../assets/qualio2.jpeg"
+import { Link } from 'react-router-dom';
+import borcel from "../../assets/logo.png";
+import qualio from "../../assets/qualio2.jpeg";
+import Programme from "../programme/Programme";
 import Taxi from "../programme/Taxi";
 
 
@@ -98,12 +98,12 @@ const Footer = () => {
               <button // Separate button for PDF_VTC
                 className="ml-4 px-4 py-2 bg-cyan-700 text-white font-bold rounded-lg"
               >
-                Agrément VTC : 76-24-03
+                Agrément VTC : n° 76-24-03
               </button>
               <button // Separate button for PDF_VTC
                 className="ml-4 px-4 py-2 bg-cyan-700 text-white font-bold rounded-lg"
               >
-                Agrément Taxi : 76-24-02
+                Agrément Taxi : n° 76-24-02
               </button>
               </div>
             </div>
