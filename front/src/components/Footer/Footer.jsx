@@ -8,10 +8,8 @@ import Programme from "../programme/Programme"
 import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom';
 import qualio from "../../assets/qualio2.jpeg"
 import Taxi from "../programme/Taxi";
-import downloadFiles from "../utils/lib"
 
-const PDF_Taxi = " /agrementTaxi.pdf";
-const PDF_VTC = "/agrementVTC.pdf";
+
 
 const FooterLinks = [
   {
@@ -97,17 +95,15 @@ const Footer = () => {
                 className='cursor-pointer'
               />
               <div className="flex flex-col gap-3">
-              <button
-                onClick={() => downloadFiles(PDF_VTC)} // Separate button for PDF_VTC
+              <button // Separate button for PDF_VTC
                 className="ml-4 px-4 py-2 bg-cyan-700 text-white font-bold rounded-lg"
               >
-                Agrément VTC
+                Agrément VTC : 76-24-03
               </button>
-              <button
-                onClick={() => downloadFiles(PDF_Taxi)} // Separate button for PDF_VTC
+              <button // Separate button for PDF_VTC
                 className="ml-4 px-4 py-2 bg-cyan-700 text-white font-bold rounded-lg"
               >
-                Agrément Taxi
+                Agrément Taxi : 76-24-02
               </button>
               </div>
             </div>
