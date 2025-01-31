@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import carPng from "../../assets/car.png";
-import yellowCar from "../../assets/banner-car.png";
-import faceCar from "../../assets/coupe.png"
+import carPng from "../../assets/car.webp";
+import yellowCar from "../../assets/banner-car.webp";
+import faceCar from "../../assets/coupe.webp"
 import AOS from "aos";
 import { Link } from "react-router-dom";
 
@@ -34,7 +34,7 @@ const Hero = ({ theme }) => {
             width={592}
             height={552}
               src={carPng}
-              alt=""
+              alt="photo de voiture"
               className="sm:scale-125 relative -z-10 max-h-[600px] drop-shadow-[2px_20px_6px_rgba(0,0,0,0.50)]"
             />
           </div>

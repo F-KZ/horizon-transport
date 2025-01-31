@@ -1,5 +1,5 @@
 import React from "react";
-import CarPng from "../../assets/profile.png";
+import Carwebp from "../../assets/profile.webp";
 import { useState } from "react";
 
 
@@ -84,8 +84,8 @@ const About = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center">
           <div data-aos="slide-right" data-aos-duration="1500">
             <img
-              src={CarPng}
-              alt=""
+              src={Carwebp}
+              alt=" photo de voiture"
               className="sm:scale-125 sm:-translate-x-11 max-h-[300px] drop-shadow-[2px_10px_6px_rgba(0,0,0,0.50)]"
             />
           </div>

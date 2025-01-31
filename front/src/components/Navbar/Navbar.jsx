@@ -4,7 +4,7 @@ import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import ResponsiveMenu from "./ResponsiveMenu";
 import { Link } from "react-router-dom";
 import Transit from "../Transit/Transit";
-import borcel from "../../assets/logo2.png"
+import borcel from "../../assets/logo2.webp"
 
 
 export const Navlinks = [
@@ -41,6 +41,7 @@ const Navbar = ({ theme, setTheme }) => {
           <div>
             <img
               src={borcel}
+              alt="logo"
             />
           </div>
           <div>

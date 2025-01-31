@@ -4,8 +4,8 @@ import {
   FaMobileAlt,
 } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-import borcel from "../../assets/logo.png";
-import qualio from "../../assets/qualio2.jpeg";
+import borcel from "../../assets/logo.webp";
+import qualio from "../../assets/qualio2.webp";
 import Programme from "../programme/Programme";
 import Taxi from "../programme/Taxi";
 
@@ -38,6 +38,7 @@ const Footer = () => {
           <div className=" py-8 px-4 "> <img
             width={260}
             src={borcel}
+            alt="logo horizon"
           /></div>
           
           {/* Links */}

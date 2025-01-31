@@ -1,8 +1,8 @@
 import React from "react";
 import { FaAngleDoubleDown } from "react-icons/fa";
-import whiteCar from "../../assets/balanceColor.png";
-import car2 from "../../assets/exam.png";
-import car3 from "../../assets/permis.png";
+import whiteCar from "../../assets/balanceColor.webp";
+import car2 from "../../assets/exam.webp";
+import car3 from "../../assets/permis.webp";
 
 const carList = [
   {
@@ -52,7 +52,7 @@ const CarList = () => {
                 <div className="w-full h-[120px]">
                   <img
                     src={data.image}
-                    alt=""
+                    alt="photo de voiture"
                     className="w-full h-[120px] object-contain "
                   />
                 </div>

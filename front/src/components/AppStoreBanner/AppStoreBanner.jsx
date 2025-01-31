@@ -1,7 +1,7 @@
 import React from "react";
-//import AppStoreImg from "../../assets/website/app_store.png";
-//import PlayStoreImg from "../../assets/website/play_store.png";
-//import pattern from "../../assets/website/car5.png";
+//import AppStoreImg from "../../assets/website/app_store.webp";
+//import PlayStoreImg from "../../assets/website/play_store.webp";
+//import pattern from "../../assets/website/car5.webp";
 
 const bannerImg = {
  // backgroundImage: `url(${pattern})`,

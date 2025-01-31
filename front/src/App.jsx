@@ -18,6 +18,8 @@ import Conditions from "./components/Footer/Conditions";
 import Mentions from "./components/Footer/Mentions";
 import Indicateur from "./components/Indicateur/Indicateur";
 import { BrowserRouter, Router, Routes, Route} from "react-router-dom";
+import { Helmet } from "react-helmet-async";
+
 // import Experience from "./components/Experience/Experience";
 
 const App = () => {
@@ -45,6 +47,8 @@ const App = () => {
     AOS.refresh();
   }, []);
   return (
+    <>
+    <SEO/>
     <BrowserRouter>
       <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden">
         <Routes>
@@ -56,6 +60,7 @@ const App = () => {
         <Footer />
       </div>
     </BrowserRouter>
+    </>
   );
 };
 
@@ -74,5 +79,21 @@ function Home({ theme, setTheme }) {
     </>
   );
 }
+
+function SEO() {
+  return (
+    <Helmet>
+      <title>Horizon-Transports - Formation VTC et Taxi</title>
+      <meta name="description" content="Formation professionnelle pour VTC et Taxi." />
+      <meta name="robots" content="index, follow" />
+      <meta property="og:title" content="Horizon-Transports - Formation VTC et Taxi" />
+      <meta property="og:description" content="Apprenez à devenir chauffeur VTC et Taxi avec nos formations de qualité." />
+      <meta property="og:url" content="https://www.horizon-transports.com" />
+      <meta property="og:type" content="website" />
+      <meta name="keywords" content="formation taxi, formation vtc, vtc, taxi, horizon, horizon transports"/>
+    </Helmet>
+  );
+}
+
 
 export default App;

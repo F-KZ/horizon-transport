@@ -1,6 +1,6 @@
-import carPng from "../../assets/car.png";
-import yellowCar from "../../assets/banner-car.png";
-import faceCar from "../../assets/coupe.png"
+import carwebp from "../../assets/car.webp";
+import yellowCar from "../../assets/banner-car.webp";
+import faceCar from "../../assets/coupe.webp"
 import AOS from "aos";
 import { useEffect } from "react";
 

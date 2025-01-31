@@ -5,7 +5,7 @@ import {
   FaPhoneAlt,
   FaAt,
 } from "react-icons/fa";
-import story from "../../assets/story8.png"
+import story from "../../assets/story8.webp"
 import MyForm from "./Formulaire";
 
 const Form = () => {
@@ -25,7 +25,10 @@ const Form = () => {
         <div className=" rounded-xl p-8 text-gray-600">
         <img
         width={300}
-         src={story}/>
+         src={story}
+          alt="photo decorative"
+         />
+         
           {/*<form action="" className="flex flex-col space-y-2">
           <div>
             <label htmlFor="" className="text-sm">Nom Complet</label>
