@@ -81,19 +81,39 @@ function Home({ theme, setTheme }) {
 }
 
 function SEO() {
+  const seoData = {
+    title: "Horizon-Transports - Formation VTC et Taxi",
+    description: "Apprenez à devenir chauffeur VTC et Taxi avec nos formations de qualité.",
+    url: "https://www.horizon-transports.com",
+    keywords: "formation taxi rouen, formation vtc rouen, vtc, taxi, horizon, horizon transports, horizon transport",
+    image: "https://www.horizon-transports.com/images/formation-vtc.jpg" // Remplace avec l’URL réelle de ton image
+  };
+
   return (
     <Helmet>
-      <title>Horizon-Transports - Formation VTC et Taxi</title>
-      <meta name="description" content="Formation professionnelle pour VTC et Taxi." />
+      {/* Title & Meta Description */}
+      <title>{seoData.title}</title>
+      <meta name="description" content={seoData.description} />
       <meta name="robots" content="index, follow" />
-      <meta property="og:title" content="Horizon-Transports - Formation VTC et Taxi" />
-      <meta property="og:description" content="Apprenez à devenir chauffeur VTC et Taxi avec nos formations de qualité." />
-      <meta property="og:url" content="https://www.horizon-transports.com" />
+      <meta name="keywords" content={seoData.keywords} />
+
+      {/* Open Graph (Facebook, LinkedIn, WhatsApp) */}
+      <meta property="og:title" content={seoData.title} />
+      <meta property="og:description" content={seoData.description} />
+      <meta property="og:url" content={seoData.url} />
       <meta property="og:type" content="website" />
-      <meta name="keywords" content="formation taxi, formation vtc, vtc, taxi, horizon, horizon transports"/>
+      <meta property="og:image" content={seoData.image} />
+
+      {/* Twitter Card (Twitter) */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={seoData.title} />
+      <meta name="twitter:description" content={seoData.description} />
+      <meta name="twitter:image" content={seoData.image} />
+      <meta name="twitter:url" content={seoData.url} />
     </Helmet>
   );
 }
+
 
 
 export default App;
