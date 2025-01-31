@@ -86,7 +86,9 @@ function SEO() {
     description: "Apprenez à devenir chauffeur VTC et Taxi avec nos formations de qualité.",
     url: "https://www.horizon-transports.com",
     keywords: "formation taxi rouen, formation vtc rouen, vtc, taxi, horizon, horizon transports, horizon transport",
-    image: "https://www.horizon-transports.com/images/formation-vtc.jpg" // Remplace avec l’URL réelle de ton image
+    image: "https://www.horizon-transports.com/images/profile.webp",
+    favicon: "/favicon.ico", // Favicon par défaut
+    faviconPng: "/favicon-96x96.png" // Version PNG
   };
 
   return (
@@ -97,19 +99,25 @@ function SEO() {
       <meta name="robots" content="index, follow" />
       <meta name="keywords" content={seoData.keywords} />
 
-      {/* Open Graph (Facebook, LinkedIn, WhatsApp) */}
+      {/* Favicon */}
+      <link rel="icon" href={seoData.favicon} type="image/x-icon" />
+      <link rel="shortcut icon" href={seoData.favicon} type="image/x-icon" />
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href={seoData.faviconPng} />
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+      <link rel="manifest" href="/site.webmanifest" />
+
+      {/* Open Graph & Twitter */}
       <meta property="og:title" content={seoData.title} />
       <meta property="og:description" content={seoData.description} />
       <meta property="og:url" content={seoData.url} />
-      <meta property="og:type" content="website" />
       <meta property="og:image" content={seoData.image} />
-
-      {/* Twitter Card (Twitter) */}
+      <meta property="og:type" content="website" />
+      
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={seoData.title} />
       <meta name="twitter:description" content={seoData.description} />
       <meta name="twitter:image" content={seoData.image} />
-      <meta name="twitter:url" content={seoData.url} />
     </Helmet>
   );
 }
