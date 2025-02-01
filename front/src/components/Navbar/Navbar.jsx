@@ -42,6 +42,7 @@ const Navbar = ({ theme, setTheme }) => {
             <img
               src={borcel}
               alt="logo"
+              className="w-1/2 md:w-[70%] lg:w-full "
             />
           </div>
           <div>
