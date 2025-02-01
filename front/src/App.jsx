@@ -88,7 +88,16 @@ function SEO() {
     keywords: "formation taxi rouen, formation vtc rouen, vtc, taxi, horizon, horizon transports, horizon transport",
     image: "https://www.horizon-transports.com/images/profile.webp",
     favicon: "/favicon.ico", // Favicon par défaut
-    faviconPng: "/favicon-96x96.png" // Version PNG
+    faviconPng: "/favicon-96x96.png" ,// Version PNG
+    logo: "https://www.horizon-transports.com/favicon-96x96.png"
+  };
+
+  const logoSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Horizon Transports",
+    "url": seoData.url,
+    "logo": seoData.logo
   };
 
   return (
@@ -118,6 +127,11 @@ function SEO() {
       <meta name="twitter:title" content={seoData.title} />
       <meta name="twitter:description" content={seoData.description} />
       <meta name="twitter:image" content={seoData.image} />
+
+      {/* Schema.org Logo */}
+      <script type="application/ld+json">
+        {JSON.stringify(logoSchema)}
+      </script>
     </Helmet>
   );
 }
