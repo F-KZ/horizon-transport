@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet";
 
-const SEO = ({ title, description, url, image, keywords }) => {
+const Seo = ({ title, description, url, image, keywords }) => {
   const defaultSEO = {
     title: "Horizon-Transports - Formation VTC et Taxi" || title,
     description: "Apprenez à devenir chauffeur VTC et Taxi avec nos formations de qualité." || description,
@@ -31,4 +31,4 @@ const SEO = ({ title, description, url, image, keywords }) => {
   );
 };
 
-export default SEO;
+export default Seo;
