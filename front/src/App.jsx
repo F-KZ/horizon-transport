@@ -18,7 +18,7 @@ import Conditions from "./components/Footer/Conditions";
 import Mentions from "./components/Footer/Mentions";
 import Indicateur from "./components/Indicateur/Indicateur";
 import { BrowserRouter, Router, Routes, Route} from "react-router-dom";
-import Seo from "./components/SEO/Seo";
+import Seo from "./components/Referencement/Seo";
 // import Experience from "./components/Experience/Experience";
 
 const App = () => {
